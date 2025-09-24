@@ -91,18 +91,111 @@ const Navbar = () => {
                   <Link className="font-bold text-black hover:underline px-2 py-1" href="#product">
                     PRODUCT
                   </Link>
-                  <div className={`absolute left-0 top-full min-w-[220px] bg-white border border-[#449833] rounded-lg shadow-lg mt-2 z-20 pointer-events-auto ${open ? 'block' : 'hidden'}`}>
+                  <div className={`absolute left-0 top-full min-w-[200px] bg-white border border-[#449833] rounded-lg shadow-lg mt-2 z-20 pointer-events-auto ${open ? 'block' : 'hidden'}`}>
                     <ul className="py-2">
-                      <li><Link href="/products/reprocess-abs-granules" className="block px-5 py-2 text-[#449833] font-medium whitespace-nowrap transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">REPROCESS ABS GRANULES</Link></li>
-                      <li><Link href="/products/virgin-abs-granules" className="block px-5 py-2 text-[#449833] font-medium whitespace-nowrap transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">VIRGIN ABS GRANULES</Link></li>
-                      <li><Link href="/products/polystyrene-granules" className="block px-5 py-2 text-[#449833] font-medium whitespace-nowrap transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">POLYSTYRENE GRANULES</Link></li>
-                      <li><Link href="/products/reprocess-gpps-granules" className="block px-5 py-2 text-[#449833] font-medium whitespace-nowrap transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">REPROCESS GPPS GRANULES</Link></li>
-                      <li><Link href="/products/virgin-gpps-granules" className="block px-5 py-2 text-[#449833] font-medium whitespace-nowrap transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">VIRGIN GPPS GRANULES</Link></li>
-                      <li><Link href="/products/pet-granules" className="block px-5 py-2 text-[#449833] font-medium whitespace-nowrap transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">PET GRANULES</Link></li>
-                     
-                      <li><Link href="/products/reprocess-san-granules" className="block px-5 py-2 text-[#449833] font-medium whitespace-nowrap transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">REPROCESS SAN GRANULES</Link></li>
-                      <li><Link href="/products/san-regrind" className="block px-5 py-2 text-[#449833] font-medium whitespace-nowrap transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">SAN REGRIND</Link></li>
-                      <li><Link href="/products/virgin-pp-granules" className="block px-5 py-2 text-[#449833] font-medium whitespace-nowrap transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">VIRGIN PP GRANULES</Link></li>
+                      {/* ABS Category */}
+                      <li className="relative group">
+                        <div className="block px-4 py-2 text-[#449833] font-medium hover:bg-[#48A1C7] hover:text-white transition-all duration-200 cursor-pointer">
+                          ABS
+                          
+                        </div>
+                        <div className="absolute left-full top-0 min-w-[250px] bg-white border border-[#449833] rounded-lg shadow-lg ml-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-30">
+                          <ul className="py-2">
+                            <li><Link href="/products/virgin-abs-granules" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Virgin ABS Granules</Link></li>
+                            <li><Link href="/products/reprocess-abs-granules" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Reprocess ABS Granules</Link></li>
+                          </ul>
+                        </div>
+                      </li>
+                      
+                      {/* Polystyrene Category */}
+                      <li className="relative group">
+                        <div className="block px-4 py-2 text-[#449833] font-medium hover:bg-[#48A1C7] hover:text-white transition-all duration-200 cursor-pointer">
+                          Polystyrene Granules
+                          
+                        </div>
+                        <div className="absolute left-full top-0 min-w-[200px] bg-white border border-[#449833] rounded-lg shadow-lg ml-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-30">
+                          <ul className="py-2">
+                            <li><Link href="/products/virgin-gpps" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Virgin GPPS</Link></li>
+                            <li><Link href="/products/reprocess-gpps" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Reprocess GPPS</Link></li>
+                            <li><Link href="/products/virgin-hips" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Virgin HIPS</Link></li>
+                            <li><Link href="/products/reprocess-hips" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Reprocess HIPS</Link></li>
+                          </ul>
+                        </div>
+                      </li>
+                      
+                      {/* PP Category */}
+                      <li className="relative group">
+                        <div className="block px-4 py-2 text-[#449833] font-medium hover:bg-[#48A1C7] hover:text-white transition-all duration-200 cursor-pointer">
+                          PP
+                          
+                        </div>
+                        <div className="absolute left-full top-0 min-w-[200px] bg-white border border-[#449833] rounded-lg shadow-lg ml-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-30">
+                          <ul className="py-2">
+                            <li><Link href="/products/virgin-pp" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Virgin PP</Link></li>
+                            <li><Link href="/products/reprocess-pp" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Reprocess PP</Link></li>
+                          </ul>
+                        </div>
+                      </li>
+                      
+                      {/* SAN Category */}
+                      <li className="relative group">
+                        <div className="block px-4 py-2 text-[#449833] font-medium hover:bg-[#48A1C7] hover:text-white transition-all duration-200 cursor-pointer">
+                          SAN
+                          
+                        </div>
+                        <div className="absolute left-full top-0 min-w-[250px] bg-white border border-[#449833] rounded-lg shadow-lg ml-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-30">
+                          <ul className="py-2">
+                            <li><Link href="/products/virgin-san-granules" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Virgin SAN Granules</Link></li>
+                            <li><Link href="/products/reprocess-san-granules" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Reprocess SAN Granules</Link></li>
+                            <li><Link href="/products/san-regrind" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• SAN Regrind</Link></li>
+                          </ul>
+                        </div>
+                      </li>
+                      
+                      {/* PC Category */}
+                      <li className="relative group">
+                        <div className="block px-4 py-2 text-[#449833] font-medium hover:bg-[#48A1C7] hover:text-white transition-all duration-200 cursor-pointer">
+                          PC
+                          
+                        </div>
+                        <div className="absolute left-full top-0 min-w-[300px] bg-white border border-[#449833] rounded-lg shadow-lg ml-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-30">
+                          <ul className="py-2">
+                            <li><Link href="/products/virgin-polycarbonate-granules" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Virgin Polycarbonate Granules</Link></li>
+                            <li><Link href="/products/reprocess-polycarbonate-granules" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Reprocess Polycarbonate Granules</Link></li>
+                            <li><Link href="/products/polycarbonate-regrind" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Polycarbonate Regrind</Link></li>
+                          </ul>
+                        </div>
+                      </li>
+                      
+                      {/* PET Category */}
+                      <li className="relative group">
+                        <div className="block px-4 py-2 text-[#449833] font-medium hover:bg-[#48A1C7] hover:text-white transition-all duration-200 cursor-pointer">
+                          PET
+                          
+                        </div>
+                        <div className="absolute left-full top-0 min-w-[220px] bg-white border border-[#449833] rounded-lg shadow-lg ml-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-30">
+                          <ul className="py-2">
+                            <li><Link href="/products/virgin-pet-resin" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Virgin PET Resin</Link></li>
+                            <li><Link href="/products/pet-preform-regrind" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• PET Preform Regrind</Link></li>
+                            <li><Link href="/products/hot-wash-pet-flakes" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• Hot wash PET Flakes</Link></li>
+                          </ul>
+                        </div>
+                      </li>
+                      
+                      {/* PE Category */}
+                      <li className="relative group">
+                        <div className="block px-4 py-2 text-[#449833] font-medium hover:bg-[#48A1C7] hover:text-white transition-all duration-200 cursor-pointer">
+                          PE
+                          
+                        </div>
+                        <div className="absolute left-full top-0 min-w-[150px] bg-white border border-[#449833] rounded-lg shadow-lg ml-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-30">
+                          <ul className="py-2">
+                            <li><Link href="/products/ldpe" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• LDPE</Link></li>
+                            <li><Link href="/products/lldpe" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• LLDPE</Link></li>
+                            <li><Link href="/products/hdpe" className="block px-4 py-2 text-[#449833] text-sm hover:bg-[#48A1C7] hover:text-white transition-all duration-200">• HDPE</Link></li>
+                          </ul>
+                        </div>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -126,18 +219,78 @@ const Navbar = () => {
             {/* Dropdown for mobile/tablet */}
             <details className="w-full">
               <summary className="font-bold text-black hover:underline px-4 py-2 cursor-pointer select-none text-xs sm:text-sm">PRODUCT</summary>
-              <ul className="pl-4 pb-2">
-                <li><Link onClick={() => setNavOpen(false)} href="/products/reprocess-abs-granules" className="block py-1 text-[#449833] font-medium text-xs sm:text-sm transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">REPROCESS ABS GRANULES</Link></li>
-                <li><Link onClick={() => setNavOpen(false)} href="/products/virgin-abs-granules" className="block py-1 text-[#449833] font-medium text-xs sm:text-sm transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">VIRGIN ABS GRANULES</Link></li>
-                <li><Link onClick={() => setNavOpen(false)} href="/products/polystyrene-granules" className="block py-1 text-[#449833] font-medium text-xs sm:text-sm transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">POLYSTYRENE GRANULES</Link></li>
-                <li><Link onClick={() => setNavOpen(false)} href="/products/reprocess-gpps-granules" className="block py-1 text-[#449833] font-medium text-xs sm:text-sm transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">REPROCESS GPPS GRANULES</Link></li>
-                <li><Link onClick={() => setNavOpen(false)} href="/products/virgin-gpps-granules" className="block py-1 text-[#449833] font-medium text-xs sm:text-sm transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">VIRGIN GPPS GRANULES</Link></li>
-                <li><Link onClick={() => setNavOpen(false)} href="/products/pet-granules" className="block py-1 text-[#449833] font-medium text-xs sm:text-sm transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">PET GRANULES</Link></li>
+              <div className="pl-4 pb-2 max-h-80 overflow-y-auto">
                 
-                <li><Link onClick={() => setNavOpen(false)} href="/products/reprocess-san-granules" className="block py-1 text-[#449833] font-medium text-xs sm:text-sm transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">REPROCESS SAN GRANULES</Link></li>
-                <li><Link onClick={() => setNavOpen(false)} href="/products/san-regrind" className="block py-1 text-[#449833] font-medium text-xs sm:text-sm transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">SAN REGRIND</Link></li>
-                <li><Link onClick={() => setNavOpen(false)} href="/products/virgin-pp-granules" className="block py-1 text-[#449833] font-medium text-xs sm:text-sm transition-all duration-200 hover:bg-[#48A1C7] hover:text-white hover:scale-105 rounded-md shadow-sm">VIRGIN PP GRANULES</Link></li>
-              </ul>
+                {/* ABS Category */}
+                <details className="mb-2">
+                  <summary className="text-[#449833] font-bold text-xs cursor-pointer select-none py-1">ABS</summary>
+                  <ul className="ml-3 mt-1">
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/virgin-abs-granules" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Virgin ABS Granules</Link></li>
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/reprocess-abs-granules" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Reprocess ABS Granules</Link></li>
+                  </ul>
+                </details>
+                
+                {/* Polystyrene Category */}
+                <details className="mb-2">
+                  <summary className="text-[#449833] font-bold text-xs cursor-pointer select-none py-1">Polystyrene Granules</summary>
+                  <ul className="ml-3 mt-1">
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/virgin-gpps" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Virgin GPPS</Link></li>
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/reprocess-gpps" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Reprocess GPPS</Link></li>
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/virgin-hips" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Virgin HIPS</Link></li>
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/reprocess-hips" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Reprocess HIPS</Link></li>
+                  </ul>
+                </details>
+                
+                {/* PP Category */}
+                <details className="mb-2">
+                  <summary className="text-[#449833] font-bold text-xs cursor-pointer select-none py-1">PP</summary>
+                  <ul className="ml-3 mt-1">
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/virgin-pp" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Virgin PP</Link></li>
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/reprocess-pp" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Reprocess PP</Link></li>
+                  </ul>
+                </details>
+                
+                {/* SAN Category */}
+                <details className="mb-2">
+                  <summary className="text-[#449833] font-bold text-xs cursor-pointer select-none py-1">SAN</summary>
+                  <ul className="ml-3 mt-1">
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/virgin-san-granules" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Virgin SAN Granules</Link></li>
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/reprocess-san-granules" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Reprocess SAN Granules</Link></li>
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/san-regrind" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• SAN Regrind</Link></li>
+                  </ul>
+                </details>
+                
+                {/* PC Category */}
+                <details className="mb-2">
+                  <summary className="text-[#449833] font-bold text-xs cursor-pointer select-none py-1">PC</summary>
+                  <ul className="ml-3 mt-1">
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/virgin-polycarbonate-granules" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Virgin Polycarbonate Granules</Link></li>
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/reprocess-polycarbonate-granules" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Reprocess Polycarbonate Granules</Link></li>
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/polycarbonate-regrind" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Polycarbonate Regrind</Link></li>
+                  </ul>
+                </details>
+                
+                {/* PET Category */}
+                <details className="mb-2">
+                  <summary className="text-[#449833] font-bold text-xs cursor-pointer select-none py-1">PET</summary>
+                  <ul className="ml-3 mt-1">
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/virgin-pet-resin" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Virgin PET Resin</Link></li>
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/pet-preform-regrind" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• PET Preform Regrind</Link></li>
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/hot-wash-pet-flakes" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Hot wash PET Flakes</Link></li>
+                  </ul>
+                </details>
+                
+                {/* PE Category */}
+                <details className="mb-2">
+                  <summary className="text-[#449833] font-bold text-xs cursor-pointer select-none py-1">PE</summary>
+                  <ul className="ml-3 mt-1">
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/ldpe" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• LDPE</Link></li>
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/lldpe" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• LLDPE</Link></li>
+                    <li><Link onClick={() => setNavOpen(false)} href="/products/hdpe" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• HDPE</Link></li>
+                  </ul>
+                </details>
+                
+              </div>
             </details>
             <Link onClick={() => setNavOpen(false)} className="font-bold text-black hover:underline px-4 py-2 w-full text-left text-xs sm:text-sm" href="/contact">
               CONTACT US

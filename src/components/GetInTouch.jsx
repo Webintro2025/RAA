@@ -51,11 +51,9 @@ const GetInTouch = () => {
       <div className="relative max-w-xl md:max-w-lg lg:max-w-xl z-10 w-full">
         <h1 className="text-lg sm:text-xl md:text-2xl font-serif mb-4 md:mb-6 leading-snug">
           <span className="text-[#449833]">
-            Chahat Packaging
+         RAA Polyplast
           </span>
-          <span className="text-[#449833]">
-            - Premium Packaging Solutions
-          </span>
+          
         </h1>
         <div className="mt-6 md:mt-12 space-y-4 md:space-y-6 max-w-xl">
           <div className="bg-[#E8F4FD] p-3 sm:p-4 md:p-6 rounded-2xl border-l-4 border-[#449833] shadow-lg">

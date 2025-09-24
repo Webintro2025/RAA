@@ -1,164 +1,208 @@
-const content =[
-
+const content = [
+  // ABS Category
   {
-  "GPPS Reprocess Granules": [
-    {
-      "name": "Red T GPPS Reprocess Granules",
-      "price": "₹98/Kg",
-      "min_order_qty": "500 Kg",
-      "color": "Red",
-      "usage": "Embroidery, And Other Crafts",
-      "packaging_size": "300g",
-      "packaging_type": "Box",
-      "material": "Glass",
-      "shape": "Cylindrical, Pipe",
-      "image": "/Red T GPPS Reprocess Granules.png",
-      "description": "Fine quality next to virgin red color transparent gpps granules. It can be used in cutlery items like spoon fork, jewellery box packing, as well as cosmetics products."
-    },
-    {
-      "name": "P 37 D GPPS Reprocess Granule",
-      "price": "₹105/Kg",
-      "min_order_qty": "500 Kg",
-      "color": "Red",
-      "usage": "Cosmetic Container",
-      "packaging_size": "25 Kg",
-      "packaging_type": "Plastic Bag",
-      "size": "3 mm",
-      "image": "/P 37 D GPPS Reprocess Granule.png",
-      "description": "Recycled Super quality p37 Gpps Granules. It's a super quality material to use in cosmetics products."
-    },
-    {
-      "name": "Ivory GPPS Reprocess Granules",
-      "price": "₹108/Kg",
-      "min_order_qty": "50 Kg",
-      "color": "Ivory",
-      "usage": "Jewellery Box",
-      "packaging_size": "25 Kg",
-      "packaging_type": "Bag",
-      "material": "GPPS",
-      "form": "Granules",
-      "image": "/Ivory GPPS Reprocess Granules.png",
-      "description": "General Purpose Polystyrene (GPPS) is a transparent, rigid thermoplastic known for its clarity and ease of processing. Reprocessed GPPS granules are derived from post-consumer or post-industrial GPPS waste."
-    },
-    {
-      "name": "Orange Pearl GPPS Reprocessed Granule",
-      "price": "₹115/Kg",
-      "min_order_qty": "1000 Kg",
-      "color": "Orange",
-      "usage": "Jewellery Box",
-      "packaging_size": "25 Kg",
-      "packaging_type": "Plastic Bag",
-      "material": "GPPS",
-      "size": "3 mm",
-      "melting_point": "150°C",
-      "recyclable": "Yes",
-      "reusable": "Yes",
-      "image": "/Orange Pearl GPPS Reprocessed Granule.png",
-      "description": "Orange Pearl Reprocess GPPS Granules are used for moulding jewellery boxes. It is a super quality material made on imported machines."
-    },
-    {
-      "name": "Black GPPS Reprocess Granules",
-      "price": "₹104/Kg",
-      "color": "Black",
-      "usage": "Embroidery, And Other Crafts",
-      "packaging_size": "300g",
-      "packaging_type": "Box",
-      "material": "Glass",
-      "shape": "Cylindrical, Pipe",
-      "size": "25 mm",
-      "image": "/Black GPPS Reprocess Granules.png",
-      "description": "Black GPPS Reprocess Granules are recycled plastic raw materials processed from high-quality GPPS waste. Known for rigidity, lightweight, and glossy black finish."
-    },
-    {
-      "name": "Maroon GPPS Reprocess Granules",
-      "price": "₹78/Kg",
-      "color": "Maroon",
-      "usage": "Embroidery, And Other Crafts",
-      "packaging_size": "300g",
-      "packaging_type": "Box",
-      "shape": "Cylindrical, Pipe",
-      "size": "25 mm",
-      "image": "/Maroon GPPS Reprocess Granules.png",
-      "description": "Maroon GPPS Reprocess Granules are recycled raw materials with rigidity, lightweight nature, and glossy maroon finish. Cost-effective alternative to virgin GPPS."
-    },
-    {
-      "name": "GPPS Golden Reprocess Granule",
-      "price": "₹109/Kg",
-      "min_order_qty": "500 Kg",
-      "color": "Golden",
-      "material": "GPPS",
-      "packaging_size": "25 Kg",
-      "packaging_type": "Bag",
-      "shape": "Cylindrical, Pipe",
-      "size": "3 mm",
-      "image": "/GPPS Golden Reprocess Granule.png",
-      "description": "Golden GPPS Reprocess Granules are manufactured from high-quality GPPS scrap. Lightweight, glossy surface, and economical alternative to virgin GPPS."
-    },
-    {
-      "name": "Gpps Reprocessed Granules",
-      "price": "₹110/Kg",
-      "color": "Brown",
-      "usage": "Jewelry Making, Embroidery, And Other Crafts",
-      "packaging_size": "500g",
-      "packaging_type": "Box",
-      "material": "Glass",
-      "shape": "Cylindrical, Pipe",
-      "image": "/Gpps Reprocessed Granules.png",
-      "description": "Brown GPPS Reprocessed Granules are known for rigidity, lightweight, and glossy finish. Cost-effective substitute for virgin GPPS resin."
-    },
-    {
-      "name": "P 37 GPPS Reprocess Granules",
-      "price": "₹99/Kg",
-      "color": "Red",
-      "usage": "Embroidery, And Other Crafts",
-      "packaging_size": "500g",
-      "packaging_type": "Box",
-      "material": "Glass",
-      "shape": "Cylindrical, Pipe",
-      "size": "25 mm",
-      "image": "/P 37 GPPS Reprocess Granules.png",
-      "description": "P 37 GPPS Reprocess Granules offer stiffness, lightweight, and glossy surface. Manufactured from high-grade GPPS waste."
-    },
-    {
-      "name": "Amber GPPS Reprocessed Granule",
-      "price": "₹99/Kg",
-      "color": "Brown",
-      "usage": "Embroidery, And Other Crafts",
-      "packaging_size": "500g",
-      "packaging_type": "Box",
-      "material": "Glass",
-      "shape": "Cylindrical, Pipe",
-      "image": "/Amber GPPS Reprocessed Granule.png",
-      "description": "Amber GPPS Reprocessed Granules provide rigidity, lightweight, and glossy amber finish. Sustainable alternative to virgin GPPS."
-    },
-    {
-      "name": "Pink GPPS Reprocess Granules",
-      "price": "₹110/Kg",
-      "min_order_qty": "1000 Kg",
-      "color": "Pink",
-      "usage": "Stationery Products",
-      "packaging_size": "25 Kg",
-      "form": "Granules",
-      "brand": "Reproces",
-      "country_of_origin": "India",
-      "image": "/Pink GPPS Reprocess Granules.png",
-      "description": "Pink GPPS Reprocess Granules are recycled raw materials with rigidity, lightweight, and glossy finish. Adds unique pink option."
-    },
-    {
-      "name": "P 51 Ivory GPPS Reprocess Granules",
-      "price": "₹105/Kg",
-      "min_order_qty": "50 Kg",
-      "color": "Ivory",
-      "usage": "Jewellery Box",
-      "packaging_size": "25 Kg",
-      "packaging_type": "Bag",
-      "material": "GPPS",
-      "form": "Granules",
-      "image": "/P 51 Ivory GPPS Reprocess Granules.png",
-      "description": "Ivory GPPS Reprocess Granules are recycled from GPPS waste, offering sustainable alternative with reliable performance."
-    },
-   
-  ]
-}
+    id: 'virgin-abs-granules',
+    name: 'Virgin ABS Granules',
+    category: 'ABS',
+    images: [
+      '/Virgin ABS Natural Granules.png',
+      '/RAA-4100 S Natural Abs Granules.png',
+      '/Polimaxx ABS GA 850.png'
+    ],
+    description: 'High-quality virgin ABS granules for superior performance and consistency.'
+  },
+  {
+    id: 'reprocess-abs-granules',
+    name: 'Reprocess ABS Granules',
+    category: 'ABS',
+    images: [
+      '/Bhansali Abs Plastic Granules.png',
+      '/Green Reprocessed Abs Granules.png',
+      '/Grey Reprocessed Abs Granules.png',
+      '/Milky White Reprocessed Abs Granules.png',
+      '/Purple Reprocessed Abs Granules.png',
+      '/RAA-100 Blue Reprocessed Abs Granules.png',
+      '/RAA-360 Pioneer Green Abs Plastic Granules.png',
+      '/RAA-2580 Garnet Red Abs Granules.png',
+      '/RAA-2130 Philips Yellow Reprocessed Abs Granules.png',
+      '/RAA -2550 S Standard Red ABS Plastic Granules.png',
+      '/RAA-850 B Pink Reprocessed Abs Granules.png',
+      '/Red Reprocessed Abs Plastic Granules.png',
+      '/Yellow Recycled Abs Plastic Granules.png',
+      '/White Recycled Abs Plastic Granules.png',
+      '/Natural Recycled Transparent Abs Plastic Granules.png',
+      '/Purple Blue Reprocessed Abs Granules.png'
+    ],
+    description: 'Cost-effective reprocessed ABS granules available in multiple colors.'
+  },
 
-]
+  // Polystyrene Granules Category
+  {
+    id: 'virgin-gpps',
+    name: 'Virgin GPPS',
+    category: 'Polystyrene Granules',
+    images: [
+      '/Prime GPPS Virgin Granules.png',
+      '/Styrenix 133 GPPS Virgin Granules.png',
+      '/Polimaxx GPPS GP-150.png'
+    ],
+    description: 'Premium virgin GPPS granules for high-performance applications.'
+  },
+  {
+    id: 'reprocess-gpps',
+    name: 'Reprocess GPPS',
+    category: 'Polystyrene Granules',
+    images: [
+      '/Gpps Reprocessed Granules.png',
+      '/Black GPPS Reprocess Granules.png',
+      '/Ivory GPPS Reprocess Granules.png',
+      '/Pink GPPS Reprocess Granules.png',
+      '/Amber GPPS Reprocessed Granule.png',
+      '/Red T GPPS Reprocess Granules.png',
+      '/P 37 D GPPS Reprocess Granule.png',
+      '/Orange Pearl GPPS Reprocessed Granule.png',
+      '/Maroon GPPS Reprocess Granules.png',
+      '/GPPS Golden Reprocess Granule.png',
+      '/P 37 GPPS Reprocess Granules.png',
+      '/P 51 Ivory GPPS Reprocess Granules.png'
+    ],
+    description: 'Reprocessed GPPS granules in various colors for diverse applications.'
+  },
+  {
+    id: 'virgin-hips',
+    name: 'Virgin HIPS',
+    category: 'Polystyrene Granules',
+    images: [],
+    description: 'High-impact polystyrene granules for superior durability.'
+  },
+  {
+    id: 'reprocess-hips',
+    name: 'Reprocess HIPS',
+    category: 'Polystyrene Granules',
+    images: [],
+    description: 'Cost-effective reprocessed HIPS granules for various applications.'
+  },
+
+  // PP Category
+  {
+    id: 'virgin-pp',
+    name: 'Virgin PP',
+    category: 'PP',
+    images: [
+      '/M12RR Hmel PP Injection Molding Granules.png'
+    ],
+    description: 'Premium virgin polypropylene granules for injection molding.'
+  },
+  {
+    id: 'reprocess-pp',
+    name: 'Reprocess PP',
+    category: 'PP',
+    images: [],
+    description: 'Reprocessed polypropylene granules for cost-effective solutions.'
+  },
+
+  // SAN Category
+  {
+    id: 'virgin-san-granules',
+    name: 'Virgin SAN Granules',
+    category: 'SAN',
+    images: [
+      '/Kumho San 310 C Tr.png'
+    ],
+    description: 'High-quality virgin SAN granules for transparent applications.'
+  },
+  {
+    id: 'reprocess-san-granules',
+    name: 'Reprocess SAN Granules',
+    category: 'SAN',
+    images: [
+      '/Reprocessed San Granules.png',
+      '/Reprocessed San Granules 1.png',
+      '/Reprocessed San Granules 2.png',
+      '/Reprocessed San Granules 3.png'
+    ],
+    description: 'Reprocessed SAN granules maintaining good optical properties.'
+  },
+  {
+    id: 'san-regrind',
+    name: 'SAN Regrind',
+    category: 'SAN',
+    images: [
+      '/Natural San Regrind.png'
+    ],
+    description: 'SAN regrind material for recycling applications.'
+  },
+
+  // PC Category
+  {
+    id: 'virgin-polycarbonate-granules',
+    name: 'Virgin Polycarbonate Granules',
+    category: 'PC',
+    images: [],
+    description: 'Premium virgin polycarbonate granules for high-performance applications.'
+  },
+  {
+    id: 'reprocess-polycarbonate-granules',
+    name: 'Reprocess Polycarbonate Granules',
+    category: 'PC',
+    images: [],
+    description: 'Reprocessed polycarbonate granules maintaining excellent properties.'
+  },
+  {
+    id: 'polycarbonate-regrind',
+    name: 'Polycarbonate Regrind',
+    category: 'PC',
+    images: [],
+    description: 'Polycarbonate regrind material for sustainable applications.'
+  },
+
+  // PET Category
+  {
+    id: 'virgin-pet-resin',
+    name: 'Virgin PET Resin',
+    category: 'PET',
+    images: [
+      '/WANKAI Pet Granules.png'
+    ],
+    description: 'High-grade virgin PET resin for bottle and container manufacturing.'
+  },
+  {
+    id: 'pet-preform-regrind',
+    name: 'PET Preform Regrind',
+    category: 'PET',
+    images: [],
+    description: 'PET preform regrind material for recycling applications.'
+  },
+  {
+    id: 'hot-wash-pet-flakes',
+    name: 'Hot wash PET Flakes',
+    category: 'PET',
+    images: [],
+    description: 'Clean hot-washed PET flakes ready for reprocessing.'
+  },
+
+  // PE Category
+  {
+    id: 'ldpe',
+    name: 'LDPE',
+    category: 'PE',
+    images: [],
+    description: 'Low-density polyethylene for flexible packaging applications.'
+  },
+  {
+    id: 'lldpe',
+    name: 'LLDPE',
+    category: 'PE',
+    images: [],
+    description: 'Linear low-density polyethylene for enhanced strength and flexibility.'
+  },
+  {
+    id: 'hdpe',
+    name: 'HDPE',
+    category: 'PE',
+    images: [],
+    description: 'High-density polyethylene for rigid container applications.'
+  }
+];
+
+export default content;

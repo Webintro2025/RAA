@@ -13,11 +13,11 @@ const Footer = () => {
             <div className="mb-4">
               <Link href="/">
                 <h1 className="text-2xl font-bold text-white mb-2 cursor-pointer" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-                  Chahat Packaging
+                  RAA Polyplast
                 </h1>
               </Link>
               <p className="text-sm text-[#48A1C7] font-medium mb-3">
-                Quality Packaging Solutions
+                FLAGS AND CAPS MANUFACTURER
               </p>
               <p className="text-gray-300 text-sm leading-relaxed">
                 D-120, Sector-5, Bawana Industrial Area, New Delhi-110039, Delhi, India<br/>
@@ -164,7 +164,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center text-xs md:text-sm">
             <div className="text-[#48A1C7] mb-2 md:mb-0 text-center md:text-left font-medium">
-              © 2025 Chahat Packaging. All rights reserved.
+              © 2025 RAA Polyplast. All rights reserved.
             </div>
             <div className="flex flex-wrap items-center justify-center md:justify-end text-white text-xs md:text-sm">
               <span>Developed with</span>
