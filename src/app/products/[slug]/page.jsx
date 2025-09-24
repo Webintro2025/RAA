@@ -39,7 +39,7 @@ export default function ProductPage({ params }) {
       {/* Header Section */}
       <div className="bg-gradient-to-r from-[#449833] via-[#E8F4FD] to-[#449833] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">
             {product.name}
           </h1>
         </div>
@@ -48,23 +48,23 @@ export default function ProductPage({ params }) {
       {/* Product Images Gallery */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {product.images.length > 0 ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 lg:gap-10">
             {product.images.map((image, index) => (
               <div 
                 key={index}
                 className="bg-white rounded-lg shadow-lg overflow-hidden border border-[#449833]/20 hover:shadow-xl transition-shadow duration-300"
               >
-                <div className="aspect-square relative bg-[#F0F8FF] p-4">
+                <div className="aspect-[4/3] lg:aspect-[3/2] xl:aspect-[4/3] relative bg-[#F0F8FF] p-6 lg:p-8">
                   <Image
                     src={image}
                     alt={product.name}
                     fill
                     className="object-contain rounded-lg"
-                    sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </div>
-                <div className="p-3 bg-[#E8F4FD] border-t border-[#449833]/20">
-                  <p className="text-sm text-[#449833] font-medium text-center">
+                <div className="p-4 lg:p-6 bg-[#E8F4FD] border-t border-[#449833]/20">
+                  <p className="text-base lg:text-lg text-[#449833] font-medium text-center">
                     {product.name}
                   </p>
                 </div>

@@ -36,14 +36,25 @@ const HomeBanner = () => {
   const banners = isMobile ? mobileBanners : desktopBanners;
 
   return (
-    <div className="relative w-full mt-16 sm:mt-24 overflow-hidden" style={{ minHeight: '350px', height: '70vw', maxHeight: '600px' }}>
+    <div 
+      className="relative w-full mt-16 sm:mt-24 overflow-hidden" 
+      style={{ 
+        minHeight: isMobile ? '250px' : '350px', 
+        height: isMobile ? '50vw' : '70vw', 
+        maxHeight: isMobile ? '400px' : '600px' 
+      }}
+    >
       {banners.map((src, i) => (
         <img
           key={src}
           src={src}
           alt={`Banner ${i + 1}`}
           className={`object-cover w-full h-full transition-opacity duration-700 absolute top-0 left-0 ${index === i ? 'opacity-100 z-10' : 'opacity-0 z-0'} ${isMobile ? 'block sm:hidden' : 'hidden sm:block'}`}
-          style={{ height: '100%', minHeight: '350px', maxHeight: '650px' }}
+          style={{ 
+            height: '100%', 
+            minHeight: isMobile ? '250px' : '350px', 
+            maxHeight: isMobile ? '400px' : '650px' 
+          }}
         />
       ))}
       {/* Dots */}

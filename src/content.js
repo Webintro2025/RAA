@@ -72,14 +72,14 @@ const content = [
     id: 'virgin-hips',
     name: 'Virgin HIPS',
     category: 'Polystyrene Granules',
-    images: [],
+    images: ['/virgin hip.png'],
     description: 'High-impact polystyrene granules for superior durability.'
   },
   {
     id: 'reprocess-hips',
     name: 'Reprocess HIPS',
     category: 'Polystyrene Granules',
-    images: [],
+    images: ['/Reprocess HIPS Natural Granules.png'],
     description: 'Cost-effective reprocessed HIPS granules for various applications.'
   },
 
@@ -97,7 +97,7 @@ const content = [
     id: 'reprocess-pp',
     name: 'Reprocess PP',
     category: 'PP',
-    images: [],
+    images: ['/reprocesspp.png'],
     description: 'Reprocessed polypropylene granules for cost-effective solutions.'
   },
 
@@ -152,7 +152,10 @@ const content = [
     id: 'polycarbonate-regrind',
     name: 'Polycarbonate Regrind',
     category: 'PC',
-    images: [],
+    images: ['/Smocky Polycarbonate Regrind.png',
+      '/Natural Polycarbonate Regrind.png',
+      '/Red Polycarbonate Regrind.png'
+    ],
     description: 'Polycarbonate regrind material for sustainable applications.'
   },
 
@@ -170,7 +173,7 @@ const content = [
     id: 'pet-preform-regrind',
     name: 'PET Preform Regrind',
     category: 'PET',
-    images: [],
+    images: ['/PET.jpeg'],
     description: 'PET preform regrind material for recycling applications.'
   },
   {
@@ -193,14 +196,14 @@ const content = [
     id: 'lldpe',
     name: 'LLDPE',
     category: 'PE',
-    images: [],
+    images: ['/LLDPE.png'],
     description: 'Linear low-density polyethylene for enhanced strength and flexibility.'
   },
   {
     id: 'hdpe',
     name: 'HDPE',
     category: 'PE',
-    images: [],
+    images: ['/HDPE.png'],
     description: 'High-density polyethylene for rigid container applications.'
   }
 ];
