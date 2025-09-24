@@ -1,7 +1,5 @@
-
 "use client";
 import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
 
 const images = [
   { src: '/Bhansali Abs Plastic Granules.png', alt: 'ABS PLASTIC GRANULES', slug: 'abs-granules' },
@@ -58,7 +56,6 @@ const Gallery = () => {
     return () => window.removeEventListener('resize', updateImages);
   }, []);
 
-  const router = useRouter();
   return (
     <div className="min-h-screen bg-[#F0F8FF] py-10 px-4">
       <h2 className="text-3xl font-bold text-[#449833] text-center mb-10 tracking-wide">Our Gallery</h2>
@@ -66,14 +63,7 @@ const Gallery = () => {
         {visibleImages.map((img, idx) => (
           <div
             key={idx}
-            className="bg-[#E8F4FD] rounded-lg shadow-md overflow-hidden flex flex-col items-center transition-transform duration-300 hover:scale-105 hover:shadow-lg border-2 border-[#449833] focus:outline-none cursor-pointer"
-            tabIndex={0}
-            onClick={() => img.slug && router.push(`/products/${img.slug}`)}
-            onKeyDown={e => {
-              if (e.key === 'Enter' && img.slug) router.push(`/products/${img.slug}`);
-            }}
-            role="button"
-            aria-label={`Go to ${img.alt} page`}
+            className="bg-[#E8F4FD] rounded-lg shadow-md overflow-hidden flex flex-col items-center transition-transform duration-300 hover:scale-105 hover:shadow-lg border-2 border-[#449833]"
           >
             <img
               src={img.src}

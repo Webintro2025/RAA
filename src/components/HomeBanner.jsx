@@ -4,20 +4,18 @@ import React, { useEffect, useState } from 'react';
 const desktopBanners = [
   "/banner1.jpg",
   "/banner2.jpg",
-  
 ];
+
 const mobileBanners = [
   "/banner1M.jpg",
-  "/banner2M.jpg",
-
 ];
 
 const HomeBanner = () => {
   const [index, setIndex] = useState(0);
-  // Detect mobile
   const [isMobile, setIsMobile] = useState(false);
+  
   useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 640);
+    const checkMobile = () => setIsMobile(window.innerWidth < 768); // Changed from 640 to 768
     checkMobile();
     window.addEventListener('resize', checkMobile);
     return () => window.removeEventListener('resize', checkMobile);
@@ -36,33 +34,65 @@ const HomeBanner = () => {
   const banners = isMobile ? mobileBanners : desktopBanners;
 
   return (
-    <div 
-      className="relative w-full mt-16 sm:mt-24 overflow-hidden" 
-      style={{ 
-        minHeight: isMobile ? '250px' : '350px', 
-        height: isMobile ? '50vw' : '70vw', 
-        maxHeight: isMobile ? '400px' : '600px' 
-      }}
-    >
-      {banners.map((src, i) => (
-        <img
-          key={src}
-          src={src}
-          alt={`Banner ${i + 1}`}
-          className={`object-cover w-full h-full transition-opacity duration-700 absolute top-0 left-0 ${index === i ? 'opacity-100 z-10' : 'opacity-0 z-0'} ${isMobile ? 'block sm:hidden' : 'hidden sm:block'}`}
+    <div className="relative w-full mt-16 md:mt-20 lg:mt-24 overflow-hidden">
+      {/* Mobile Banner */}
+      <div className="md:hidden">
+        <div 
+          className="relative w-full"
           style={{ 
-            height: '100%', 
-            minHeight: isMobile ? '250px' : '350px', 
-            maxHeight: isMobile ? '400px' : '650px' 
+            minHeight: '250px',
+            height: '50vw',
+            maxHeight: '400px'
           }}
-        />
-      ))}
-      {/* Dots */}
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-20">
+        >
+          {mobileBanners.map((src, i) => (
+            <img
+              key={`mobile-${src}`}
+              src={src}
+              alt={`Mobile Banner ${i + 1}`}
+              className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-700 ${
+                index === i ? 'opacity-100 z-10' : 'opacity-0 z-0'
+              }`}
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* Desktop Banner */}
+      <div className="hidden md:block">
+        <div 
+          className="relative w-full"
+          style={{ 
+            minHeight: '400px',
+            height: '60vh',
+            maxHeight: '700px'
+          }}
+        >
+          {desktopBanners.map((src, i) => (
+            <img
+              key={`desktop-${src}`}
+              src={src}
+              alt={`Desktop Banner ${i + 1}`}
+              className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-700 ${
+                index === i ? 'opacity-100 z-10' : 'opacity-0 z-0'
+              }`}
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* Navigation Dots */}
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 z-20">
         {banners.map((_, i) => (
-          <span
+          <button
             key={i}
-            className={`w-3 h-3 rounded-full border border-yellow-400 bg-white transition-all duration-300 ${index === i ? 'bg-yellow-400 scale-125' : 'opacity-60'}`}
+            onClick={() => setIndex(i)}
+            className={`w-3 h-3 rounded-full border-2 transition-all duration-300 focus:outline-none ${
+              index === i 
+                ? 'bg-[#449833] border-[#449833] scale-125' 
+                : 'bg-white/70 border-white hover:bg-white'
+            }`}
+            aria-label={`Go to slide ${i + 1}`}
           />
         ))}
       </div>

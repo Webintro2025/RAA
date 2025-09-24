@@ -14,7 +14,7 @@ const About = () => {
           <div className="mb-7">
             <h2 className="text-base sm:text-lg md:text-2xl font-bold text-[#449833] mb-1 sm:mb-2">About Us</h2>
             <p className="font-normal text-sm sm:text-base md:text-lg leading-relaxed mb-2 sm:mb-3">
-              Welcome to Raa Polyplast, a trusted name in the polymer industry since 2015. Based in the industrial heart of New Delhi, we have established ourselves as a leading manufacturer and wholesaler of high-quality plastic granules. Our journey began with a clear mission: to cater to the expectations of our customers by providing excellent quality products that drive their success.
+              Welcome to Raa Polyplast, a trusted name in the polymer industry since 2016. Based in the industrial heart of New Delhi, we have established ourselves as a leading manufacturer and wholesaler of high-quality plastic granules. Our journey began with a clear mission: to cater to the expectations of our customers by providing excellent quality products that drive their success.
             </p>
             <p className="font-normal text-sm sm:text-base md:text-lg leading-relaxed">
               Our foundation is built on strong moral business policies and complete transparency in all our transactions, allowing us to build healthy, long-term relationships with our clients. Under the insightful guidance of our mentor, Ms. Ridhi Mittal, Raa Polyplast has achieved exponential growth and carved a niche for itself in a competitive market. We are more than just a supplier; we are a reliable partner committed to your gratification.
