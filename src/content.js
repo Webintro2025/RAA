@@ -138,14 +138,14 @@ const content = [
     id: 'virgin-polycarbonate-granules',
     name: 'Virgin Polycarbonate Granules',
     category: 'PC',
-    images: [],
+    images: ['/Virgin Polycarbonate Granules.png'],
     description: 'Premium virgin polycarbonate granules for high-performance applications.'
   },
   {
     id: 'reprocess-polycarbonate-granules',
     name: 'Reprocess Polycarbonate Granules',
     category: 'PC',
-    images: [],
+    images: ['/Reprocess Polycarbonate Granules.png'],
     description: 'Reprocessed polycarbonate granules maintaining excellent properties.'
   },
   {
@@ -180,7 +180,7 @@ const content = [
     id: 'hot-wash-pet-flakes',
     name: 'Hot wash PET Flakes',
     category: 'PET',
-    images: [],
+    images: ['/Hot wash PET Flakes.png'],
     description: 'Clean hot-washed PET flakes ready for reprocessing.'
   },
 
@@ -189,7 +189,7 @@ const content = [
     id: 'ldpe',
     name: 'LDPE',
     category: 'PE',
-    images: [],
+    images: ['/Low Density Polyethylene Granule.png'],
     description: 'Low-density polyethylene for flexible packaging applications.'
   },
   {
