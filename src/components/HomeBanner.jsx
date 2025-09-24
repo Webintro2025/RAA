@@ -15,7 +15,7 @@ const HomeBanner = () => {
   const [isMobile, setIsMobile] = useState(false);
   
   useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 768); // Changed from 640 to 768
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
     checkMobile();
     window.addEventListener('resize', checkMobile);
     return () => window.removeEventListener('resize', checkMobile);
@@ -42,7 +42,7 @@ const HomeBanner = () => {
           style={{ 
             minHeight: '250px',
             height: '50vw',
-            maxHeight: '400px'
+            maxHeight: '500px'
           }}
         >
           {mobileBanners.map((src, i) => (
@@ -63,9 +63,9 @@ const HomeBanner = () => {
         <div 
           className="relative w-full"
           style={{ 
-            minHeight: '400px',
-            height: '60vh',
-            maxHeight: '700px'
+            minHeight: '550px',
+            height: '65vh',
+            maxHeight: '850px'
           }}
         >
           {desktopBanners.map((src, i) => (
