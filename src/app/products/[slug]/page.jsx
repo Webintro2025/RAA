@@ -2,6 +2,7 @@ import React from 'react';
 import content from '../../../content.js';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
+import GetInTouch from '@/components/GetInTouch.jsx';
 
 // Generate static params for all products
 export async function generateStaticParams() {
@@ -42,6 +43,9 @@ export default function ProductPage({ params }) {
           <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">
             {product.name}
           </h1>
+          <p className="text-lg md:text-xl text-gray-800 max-w-4xl mx-auto leading-relaxed">
+            {product.description}
+          </p>
         </div>
       </div>
 
@@ -65,12 +69,14 @@ export default function ProductPage({ params }) {
                 </div>
                 <div className="p-4 lg:p-6 bg-[#E8F4FD] border-t border-[#449833]/20">
                   <p className="text-base lg:text-lg text-[#449833] font-medium text-center">
-                    {product.name}
+                    {image.split('/').pop().split('.')[0]}
                   </p>
                 </div>
               </div>
             ))}
+
           </div>
+        
         ) : (
           <div className="bg-white rounded-lg shadow-lg p-16 text-center border border-[#449833]/20 max-w-2xl mx-auto">
             <div className="w-32 h-32 mx-auto mb-6 bg-[#E8F4FD] rounded-full flex items-center justify-center">
@@ -84,6 +90,7 @@ export default function ProductPage({ params }) {
           </div>
         )}
       </div>
+      <GetInTouch />
     </div>
   );
 }
