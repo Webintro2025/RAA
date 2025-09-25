@@ -6,7 +6,7 @@ const content = [
     category: 'ABS',
     images: [
       '/Virgin ABS Natural Granules.png',
-      '/RAA-4100 S Natural Abs Granules.png',
+      '/Bhansali Abs Plastic Granules.png',
       '/Polimaxx ABS GA 850.png'
     ],
     description: 'High-quality virgin ABS granules for superior performance and consistency.'
@@ -16,7 +16,8 @@ const content = [
     name: 'Reprocess ABS Granules',
     category: 'ABS',
     images: [
-      '/Bhansali Abs Plastic Granules.png',
+      
+      '/RAA-4100 S Natural Abs Granules.png',
       '/Green Reprocessed Abs Granules.png',
       '/Grey Reprocessed Abs Granules.png',
       '/Milky White Reprocessed Abs Granules.png',
