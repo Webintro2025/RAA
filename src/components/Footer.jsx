@@ -35,15 +35,30 @@ const Footer = () => {
                 Our Products
               </h3>
               <div className=' w-16 lg:w-20 h-0.5 bg-[#48A1C7] mb-3.5'></div>
-              <ul className="text-white text-[11px] sm:text-xs lg:text-sm space-y-1 lg:space-y-1.5">
-                <li><Link href="/products/abs" className="hover:text-[#48A1C7] cursor-pointer transition-colors">ABS</Link></li>
-                <li><Link href="/products/polystyrene-granules" className="hover:text-[#48A1C7] cursor-pointer transition-colors">POLYSTYRENE GRANULES</Link></li>
-                <li><Link href="/products/pp" className="hover:text-[#48A1C7] cursor-pointer transition-colors">PP</Link></li>
-                <li><Link href="/products/san" className="hover:text-[#48A1C7] cursor-pointer transition-colors">SAN</Link></li>
-                <li><Link href="/products/pc" className="hover:text-[#48A1C7] cursor-pointer transition-colors">PC</Link></li>
-                <li><Link href="/products/pet" className="hover:text-[#48A1C7] cursor-pointer transition-colors">PET</Link></li>
-                <li><Link href="/products/pe" className="hover:text-[#48A1C7] cursor-pointer transition-colors">PE</Link></li>
-              </ul>
+              <div className="h-40 overflow-y-auto pr-2 [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-gradient-to-b [&::-webkit-scrollbar-thumb]:from-[#48A1C7] [&::-webkit-scrollbar-thumb]:to-[#449833] [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:border-2 [&::-webkit-scrollbar-thumb]:border-transparent [&::-webkit-scrollbar-thumb]:bg-clip-padding-box hover:[&::-webkit-scrollbar-thumb]:from-[#5BB1D7] hover:[&::-webkit-scrollbar-thumb]:to-[#5AA843]">
+                <ul className="text-white text-[11px] sm:text-xs lg:text-sm space-y-1 lg:space-y-1.5">
+                  <li><Link href="/products/virgin-abs-granules" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Virgin ABS Granules</Link></li>
+                  <li><Link href="/products/reprocess-abs-granules" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Reprocess ABS Granules</Link></li>
+                  <li><Link href="/products/virgin-gpps" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Virgin GPPS</Link></li>
+                  <li><Link href="/products/reprocess-gpps" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Reprocess GPPS</Link></li>
+                  <li><Link href="/products/virgin-hips" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Virgin HIPS</Link></li>
+                  <li><Link href="/products/reprocess-hips" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Reprocess HIPS</Link></li>
+                  <li><Link href="/products/virgin-pp" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Virgin PP</Link></li>
+                  <li><Link href="/products/reprocess-pp" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Reprocess PP</Link></li>
+                  <li><Link href="/products/virgin-san-granules" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Virgin SAN Granules</Link></li>
+                  <li><Link href="/products/reprocess-san-granules" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Reprocess SAN Granules</Link></li>
+                  <li><Link href="/products/san-regrind" className="hover:text-[#48A1C7] cursor-pointer transition-colors">SAN Regrind</Link></li>
+                  <li><Link href="/products/virgin-polycarbonate-granules" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Virgin Polycarbonate Granules</Link></li>
+                  <li><Link href="/products/reprocess-polycarbonate-granules" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Reprocess Polycarbonate Granules</Link></li>
+                  <li><Link href="/products/polycarbonate-regrind" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Polycarbonate Regrind</Link></li>
+                  <li><Link href="/products/virgin-pet-resin" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Virgin PET Resin</Link></li>
+                  <li><Link href="/products/pet-preform-regrind" className="hover:text-[#48A1C7] cursor-pointer transition-colors">PET Preform Regrind</Link></li>
+                  <li><Link href="/products/hot-wash-pet-flakes" className="hover:text-[#48A1C7] cursor-pointer transition-colors">Hot wash PET Flakes</Link></li>
+                  <li><Link href="/products/ldpe" className="hover:text-[#48A1C7] cursor-pointer transition-colors">LDPE</Link></li>
+                  <li><Link href="/products/lldpe" className="hover:text-[#48A1C7] cursor-pointer transition-colors">LLDPE</Link></li>
+                  <li><Link href="/products/hdpe" className="hover:text-[#48A1C7] cursor-pointer transition-colors">HDPE</Link></li>
+                </ul>
+              </div>
             </div>
 
             {/* Quick Links */}
