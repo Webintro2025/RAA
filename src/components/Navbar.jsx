@@ -17,7 +17,7 @@ const Navbar = () => {
               <FaPhoneAlt className="text-xs sm:text-sm" />
               <span className="inline">+91-8287334248</span>
             </a>
-            <a href="mailto:chahatbopp@gmail.com" className="flex items-center gap-1 text-black hover:text-blue-300">
+            <a href="mailto:ajitkg@rocketmail.com" className="flex items-center gap-1 text-black hover:text-blue-300">
               <FaEnvelope className="text-xs sm:text-sm" />
               <span className="inline">ajitkg@rocketmail.com </span>
             </a>
