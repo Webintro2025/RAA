@@ -2,59 +2,118 @@
 import React, { useEffect, useState } from 'react';
 
 const images = [
-  { src: '/Bhansali Abs Plastic Granules.png', alt: 'ABS PLASTIC GRANULES', slug: 'abs-granules' },
-  { src: '/Green Reprocessed Abs Granules.png', alt: 'GREEN ABS GRANULES', slug: 'abs-granules' },
-  { src: '/Grey Reprocessed Abs Granules.png', alt: 'GREY ABS GRANULES', slug: 'abs-granules' },
-  { src: '/Milky White Reprocessed Abs Granules.png', alt: 'WHITE ABS GRANULES', slug: 'abs-granules' },
-  { src: '/Purple Reprocessed Abs Granules.png', alt: 'PURPLE ABS GRANULES', slug: 'abs-granules' },
-  { src: '/RAA-100 Blue Reprocessed Abs Granules.png', alt: 'BLUE ABS GRANULES', slug: 'abs-granules' },
-  { src: '/Prime GPPS Virgin Granules.png', alt: 'GPPS VIRGIN GRANULES', slug: 'gpps-granules' },
-  { src: '/Styrenix 133 GPPS Virgin Granules.png', alt: 'GPPS STYRENIX GRANULES', slug: 'gpps-granules' },
-  { src: '/Polimaxx GPPS GP-150.png', alt: 'GPPS POLIMAXX GRANULES', slug: 'gpps-granules' },
-  { src: '/Gpps Reprocessed Granules.png', alt: 'GPPS REPROCESSED GRANULES', slug: 'gpps-granules' },
-  { src: '/Black GPPS Reprocess Granules.png', alt: 'BLACK GPPS GRANULES', slug: 'gpps-granules' },
-  { src: '/Ivory GPPS Reprocess Granules.png', alt: 'IVORY GPPS GRANULES', slug: 'gpps-granules' },
-  { src: '/Pink GPPS Reprocess Granules.png', alt: 'PINK GPPS GRANULES', slug: 'gpps-granules' },
-  { src: '/Amber GPPS Reprocessed Granule.png', alt: 'AMBER GPPS GRANULES', slug: 'gpps-granules' },
-  { src: '/M12RR Hmel PP Injection Molding Granules.png', alt: 'PP INJECTION GRANULES', slug: 'pp-granules' },
-  { src: '/Reprocessed San Granules.png', alt: 'SAN REPROCESSED GRANULES', slug: 'san-granules' },
-  { src: '/Reprocessed San Granules 1.png', alt: 'SAN GRANULES TYPE 1', slug: 'san-granules' },
-  { src: '/Reprocessed San Granules 2.png', alt: 'SAN GRANULES TYPE 2', slug: 'san-granules' },
-  { src: '/Reprocessed San Granules 3.png', alt: 'SAN GRANULES TYPE 3', slug: 'san-granules' },
-  { src: '/Kumho San 310 C Tr.png', alt: 'KUMHO SAN GRANULES', slug: 'san-granules' },
-  { src: '/Natural San Regrind.png', alt: 'NATURAL SAN REGRIND', slug: 'san-granules' },
-  { src: '/WANKAI Pet Granules.png', alt: 'PET GRANULES', slug: 'pet-granules' },
-  { src: '/Virgin ABS Natural Granules.png', alt: 'VIRGIN ABS NATURAL', slug: 'abs-granules' },
-  { src: '/RAA-4100 S Natural Abs Granules.png', alt: 'NATURAL ABS GRANULES', slug: 'abs-granules' },
-  { src: '/RAA-360 Pioneer Green Abs Plastic Granules.png', alt: 'PIONEER GREEN ABS', slug: 'abs-granules' },
-  { src: '/RAA-2580 Garnet Red Abs Granules.png', alt: 'GARNET RED ABS', slug: 'abs-granules' },
-  { src: '/RAA-2130 Philips Yellow Reprocessed Abs Granules.png', alt: 'YELLOW ABS GRANULES', slug: 'abs-granules' },
-  { src: '/RAA -2550 S Standard Red ABS Plastic Granules.png', alt: 'STANDARD RED ABS', slug: 'abs-granules' },
-  { src: '/RAA-850 B Pink Reprocessed Abs Granules.png', alt: 'PINK ABS GRANULES', slug: 'abs-granules' },
+  // ABS Granules
+  { src: '/Bhanshali MI 45 ABS Natural.png', alt: 'BHANSALI ABS NATURAL', slug: 'abs-granules' },
   { src: '/Polimaxx ABS GA 850.png', alt: 'POLIMAXX ABS GRANULES', slug: 'abs-granules' },
+  { src: '/Taita 5000 W ABS Natural.png', alt: 'TAITA ABS NATURAL', slug: 'abs-granules' },
+  { src: '/RAA-4100 S Natural Abs Granules.png', alt: 'RAA NATURAL ABS', slug: 'abs-granules' },
+  { src: '/RAA-4100 Semi Transparent Natural ABS Granules.png', alt: 'RAA SEMI TRANSPARENT ABS', slug: 'abs-granules' },
+  { src: '/RAA-100 Blue Reprocessed Abs Granules.png', alt: 'RAA BLUE ABS', slug: 'abs-granules' },
+  { src: '/RAA-360 Pioneer Green Abs Plastic Granules.png', alt: 'RAA PIONEER GREEN ABS', slug: 'abs-granules' },
+  { src: '/RAA-2580 Garnet Red Abs Granules.png', alt: 'RAA GARNET RED ABS', slug: 'abs-granules' },
+  { src: '/RAA-2130 Philips Yellow Reprocessed Abs Granules.png', alt: 'RAA YELLOW ABS', slug: 'abs-granules' },
+  { src: '/RAA -2550 S Standard Red ABS Plastic Granules.png', alt: 'RAA STANDARD RED ABS', slug: 'abs-granules' },
+  { src: '/RAA-850 B Pink Reprocessed Abs Granules.png', alt: 'RAA PINK ABS', slug: 'abs-granules' },
+  { src: '/RAA- 750 Purple ABS Granules.png', alt: 'RAA PURPLE ABS', slug: 'abs-granules' },
+  { src: '/RAA-1200 Fl. Orange ABS Granules.png', alt: 'RAA ORANGE ABS', slug: 'abs-granules' },
+  { src: '/RAA-2725 Poster Green ABS Granules.png', alt: 'RAA POSTER GREEN ABS', slug: 'abs-granules' },
+  { src: '/RAA-3100 Milky White ABS Granule.png', alt: 'RAA MILKY WHITE ABS', slug: 'abs-granules' },
+  { src: '/RAA-3110 Milky White ABS Granules.png', alt: 'RAA WHITE ABS', slug: 'abs-granules' },
+  { src: '/RAA-515 S Grey ABS Granules.png', alt: 'RAA GREY ABS', slug: 'abs-granules' },
+  { src: '/RAA-955 Chocolate Brown ABS Granules.png', alt: 'RAA BROWN ABS', slug: 'abs-granules' },
+  { src: '/Purple Reprocessed Abs Granules.png', alt: 'PURPLE ABS GRANULES', slug: 'abs-granules' },
   { src: '/Red Reprocessed Abs Plastic Granules.png', alt: 'RED ABS GRANULES', slug: 'abs-granules' },
-  { src: '/Yellow Recycled Abs Plastic Granules.png', alt: 'YELLOW RECYCLED ABS', slug: 'abs-granules' },
-  { src: '/White Recycled Abs Plastic Granules.png', alt: 'WHITE RECYCLED ABS', slug: 'abs-granules' },
-  { src: '/Natural Recycled Transparent Abs Plastic Granules.png', alt: 'TRANSPARENT ABS', slug: 'abs-granules' },
-  { src: '/Purple Blue Reprocessed Abs Granules.png', alt: 'PURPLE BLUE ABS', slug: 'abs-granules' },
- 
+  { src: '/White Reprocessed Abs Granules.png', alt: 'WHITE ABS GRANULES', slug: 'abs-granules' },
+  { src: '/Yellow Recycled Abs Plastic Granules.png', alt: 'YELLOW ABS GRANULES', slug: 'abs-granules' },
+  { src: '/Recycled Abs Granules.png', alt: 'RECYCLED ABS GRANULES', slug: 'abs-granules' },
+  
+  // GPPS Granules
+  { src: '/Prime GPPS Virgin Granules.png', alt: 'PRIME GPPS VIRGIN', slug: 'gpps-granules' },
+  { src: '/Styrenix 133 GPPS Virgin Granules.png', alt: 'STYRENIX GPPS', slug: 'gpps-granules' },
+  { src: '/Virgin GPPS Styrenix 133.png', alt: 'VIRGIN GPPS STYRENIX', slug: 'gpps-granules' },
+  { src: '/Polimaxx GPPS GP-150.png', alt: 'POLIMAXX GPPS', slug: 'gpps-granules' },
+  { src: '/Supreme 206 HT GPPS.png', alt: 'SUPREME GPPS', slug: 'gpps-granules' },
+  { src: '/Natural GPPS Granules.png', alt: 'NATURAL GPPS', slug: 'gpps-granules' },
+  { src: '/Black GPPS Reprocess Granules.png', alt: 'BLACK GPPS', slug: 'gpps-granules' },
+  { src: '/Ivory GPPS Reprocess Granules.png', alt: 'IVORY GPPS', slug: 'gpps-granules' },
+  { src: '/Pink GPPS Reprocess Granules.png', alt: 'PINK GPPS', slug: 'gpps-granules' },
+  { src: '/Amber GPPS Reprocessed Granule.png', alt: 'AMBER GPPS', slug: 'gpps-granules' },
+  { src: '/Red T GPPS Reprocess Granules.png', alt: 'RED GPPS', slug: 'gpps-granules' },
+  { src: '/P 37 D GPPS Reprocess Granule.png', alt: 'P37D GPPS', slug: 'gpps-granules' },
+  { src: '/Orange Pearl GPPS Reprocessed Granule.png', alt: 'ORANGE PEARL GPPS', slug: 'gpps-granules' },
+  { src: '/Maroon GPPS Reprocess Granules.png', alt: 'MAROON GPPS', slug: 'gpps-granules' },
+  { src: '/Golden Pearl GPPS Granules.png', alt: 'GOLDEN PEARL GPPS', slug: 'gpps-granules' },
+  { src: '/Coffee Pearl GPPS Granules.png', alt: 'COFFEE PEARL GPPS', slug: 'gpps-granules' },
+  { src: '/Maroon Pearl GPPS Granules.png', alt: 'MAROON PEARL GPPS', slug: 'gpps-granules' },
+  { src: '/P 37 GPPS Reprocess Granules.png', alt: 'P37 GPPS', slug: 'gpps-granules' },
+  { src: '/P 51 Ivory GPPS Reprocess Granules.png', alt: 'P51 IVORY GPPS', slug: 'gpps-granules' },
+  { src: '/P 35 GPPS Granules.png', alt: 'P35 GPPS', slug: 'gpps-granules' },
+  { src: '/GPPS Green Reprocess Granules.png', alt: 'GREEN GPPS', slug: 'gpps-granules' },
+  
+  // HIPS Granules
+  { src: '/virgin hip.png', alt: 'VIRGIN HIPS', slug: 'hips-granules' },
+  { src: '/IDEMITSU NC 770 HIPS Natural.png', alt: 'IDEMITSU HIPS', slug: 'hips-granules' },
+  { src: '/Polimaxx HIPS HG 451.png', alt: 'POLIMAXX HIPS HG451', slug: 'hips-granules' },
+  { src: '/Polimaxx HIPS HI 650.png', alt: 'POLIMAXX HIPS HI650', slug: 'hips-granules' },
+  { src: '/Supreme SH 300 HIPS.png', alt: 'SUPREME HIPS', slug: 'hips-granules' },
+  { src: '/Reprocess HIPS Natural Granules.png', alt: 'REPROCESS HIPS NATURAL', slug: 'hips-granules' },
+  { src: '/Hips Black.png', alt: 'BLACK HIPS', slug: 'hips-granules' },
+  { src: '/HIPS Milky White.png', alt: 'MILKY WHITE HIPS', slug: 'hips-granules' },
+  
+  // PP Granules
+  { src: '/M12RR Hmel PP Injection Molding Granules.png', alt: 'PP INJECTION GRANULES', slug: 'pp-granules' },
+  { src: '/reprocesspp.png', alt: 'REPROCESS PP', slug: 'pp-granules' },
+  
+  // SAN Granules
+  { src: '/Kumho San 310 C Tr.png', alt: 'KUMHO SAN GRANULES', slug: 'san-granules' },
+  { src: '/SAN Taita 1400 ZN.png', alt: 'TAITA SAN GRANULES', slug: 'san-granules' },
+  { src: '/Reprocessed San Granules.png', alt: 'REPROCESSED SAN', slug: 'san-granules' },
+  { src: '/Reprocessed San Granules 1.png', alt: 'REPROCESSED SAN 1', slug: 'san-granules' },
+  { src: '/Reprocessed San Granules 2.png', alt: 'REPROCESSED SAN 2', slug: 'san-granules' },
+  { src: '/Reprocessed San Granules 3.png', alt: 'REPROCESSED SAN 3', slug: 'san-granules' },
+  { src: '/Natural San Regrind.png', alt: 'NATURAL SAN REGRIND', slug: 'san-granules' },
+  { src: '/Color SAN Regrind.png', alt: 'COLOR SAN REGRIND', slug: 'san-granules' },
+  
+  // PC Granules
+  { src: '/Virgin Polycarbonate Granules.png', alt: 'VIRGIN PC GRANULES', slug: 'pc-granules' },
+  { src: '/SABIC PC 1003 R.png', alt: 'SABIC PC GRANULES', slug: 'pc-granules' },
+  { src: '/Reprocess Polycarbonate Granules.png', alt: 'REPROCESS PC', slug: 'pc-granules' },
+  { src: '/Milky PC Granules.png', alt: 'MILKY PC GRANULES', slug: 'pc-granules' },
+  { src: '/Smoke PC Granules.png', alt: 'SMOKE PC GRANULES', slug: 'pc-granules' },
+  { src: '/Natural Polycarbonate Regrind.png', alt: 'NATURAL PC REGRIND', slug: 'pc-granules' },
+  { src: '/Red Polycarbonate Regrind.png', alt: 'RED PC REGRIND', slug: 'pc-granules' },
+  { src: '/Smocky Polycarbonate Regrind.png', alt: 'SMOKY PC REGRIND', slug: 'pc-granules' },
+  
+  // PET Granules
+  { src: '/WANKAI Pet Granules.png', alt: 'WANKAI PET GRANULES', slug: 'pet-granules' },
+  { src: '/PET.jpeg', alt: 'PET GRANULES', slug: 'pet-granules' },
+  { src: '/Hot wash PET Flakes.png', alt: 'HOT WASH PET FLAKES', slug: 'pet-granules' },
+  
+  // PE Granules
+  { src: '/Reliance Ldpe 16ma400.png', alt: 'RELIANCE LDPE', slug: 'pe-granules' },
+  { src: '/RIL LL JF19020 LLDPE Granule.png', alt: 'RIL LLDPE GRANULES', slug: 'pe-granules' },
+  { src: '/Haldia B6401 HDPE Granule.png', alt: 'HALDIA HDPE GRANULES', slug: 'pe-granules' }
 ];
 
 const Gallery = () => {
-  const [visibleImages, setVisibleImages] = useState(images);
+  const [showAll, setShowAll] = useState(false);
+  const [visibleImages, setVisibleImages] = useState(images.slice(0, 20));
 
   useEffect(() => {
-    const updateImages = () => {
-      if (window.innerWidth >= 1024) {
-        setVisibleImages(images);
-      } else {
-        setVisibleImages(images.slice(0, images.length - 1));
-      }
-    };
-    updateImages();
-    window.addEventListener('resize', updateImages);
-    return () => window.removeEventListener('resize', updateImages);
-  }, []);
+    if (showAll) {
+      setVisibleImages(images);
+    } else {
+      setVisibleImages(images.slice(0, 20));
+    }
+  }, [showAll]);
+
+  const handleReadMore = () => {
+    setShowAll(true);
+  };
+
+  const handleShowLess = () => {
+    setShowAll(false);
+  };
 
   return (
     <div className="min-h-screen bg-[#F0F8FF] py-10 px-4">
@@ -75,6 +134,25 @@ const Gallery = () => {
             </div>
           </div>
         ))}
+      </div>
+      
+      {/* Read More / Show Less Button */}
+      <div className="text-center mt-8">
+        {!showAll ? (
+          <button
+            onClick={handleReadMore}
+            className="bg-gradient-to-r from-[#449833] to-[#48A1C7] text-white px-8 py-3 rounded-full font-semibold text-lg hover:from-[#5AA843] hover:to-[#5BB1D7] transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+          >
+            Read More ({images.length - 20} more images)
+          </button>
+        ) : (
+          <button
+            onClick={handleShowLess}
+            className="bg-gradient-to-r from-[#48A1C7] to-[#449833] text-white px-8 py-3 rounded-full font-semibold text-lg hover:from-[#5BB1D7] hover:to-[#5AA843] transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+          >
+            Show Less
+          </button>
+        )}
       </div>
     </div>
   );

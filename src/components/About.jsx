@@ -42,11 +42,10 @@ const About = () => {
   <section className="flex flex-col-reverse md:flex-row flex-wrap justify-between items-center mb-10 md:mb-10 w-full px-2 sm:px-5 md:px-12 bg-[#F0F8FF] rounded-xl py-6 sm:py-8">
         <div className="flex-1 min-w-[120px] max-w-[400px] px-0 mt-6 md:mt-0 flex justify-center md:justify-start w-full">
           <img
-            src="/Green Reprocessed Abs Granules.png"
+            src="/RAA-4100 Semi Transparent Natural ABS Granules.png"
             alt="Hands holding small green plant seedling with soil and blurred green background"
-            className="w-[100vw] max-w-[300px] sm:max-w-[350px] md:max-w-full object-contain rounded-lg shadow-md mx-auto"
-            width={300}
-            height={150}
+            className="w-[100vw] max-w-[500px] sm:max-w-[550px] md:max-w-full object-contain rounded-lg shadow-md mx-auto"
+           
           />
         </div>
         <div className="flex-1 min-w-[220px] max-w-[700px] px-0 text-center md:text-left">
