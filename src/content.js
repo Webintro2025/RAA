@@ -146,7 +146,7 @@ const content = [
       '/Natural San Regrind.png',
       '/Color SAN Regrind.png'
     ],
-    description: 'Our SAN regrind material provides an economical solution for recycling applications while maintaining basic processing characteristics. This ground material is suitable for non-critical applications such as filler material, secondary products, and applications where appearance is not a primary concern. With acceptable flow properties and dimensional stability,  SAN regrind can be used as an additive to virgin materials or processed independently for cost-sensitive applications. The material supports sustainable manufacturing practices by reducing waste and providing an environmentally responsible alternative for budget-conscious production requirements.'
+    description: 'We are Providing SAN regrind material provides an economical solution for recycling applications while maintaining basic processing characteristics. This ground material is suitable for non-critical applications such as filler material, secondary products, and applications where appearance is not a primary concern. With acceptable flow properties and dimensional stability,  SAN regrind can be used as an additive to virgin materials or processed independently for cost-sensitive applications. The material supports sustainable manufacturing practices by reducing waste and providing an environmentally responsible alternative for budget-conscious production requirements.'
   },
 
   // PC Category
@@ -177,7 +177,7 @@ const content = [
       '/Natural Polycarbonate Regrind.png',
       '/Red Polycarbonate Regrind.png'
     ],
-    description: 'Our Polycarbonate regrind material offers an environmentally sustainable solution while maintaining basic engineering properties. Available in natural, smoky, and red colors, this ground material is suitable for non-critical applications, filler material, and blend applications. With acceptable impact resistance and processing characteristics,  PC regrind can be used independently or blended with virgin materials to reduce costs. The material supports circular economy initiatives by recycling post-industrial waste while providing adequate performance for applications where appearance and maximum properties are not primary requirements, enabling sustainable manufacturing practices.'
+    description: 'We are Providing Polycarbonate regrind material offers an environmentally sustainable solution while maintaining basic engineering properties. Available in natural, smoky, and red colors, this ground material is suitable for non-critical applications, filler material, and blend applications. With acceptable impact resistance and processing characteristics,  PC regrind can be used independently or blended with virgin materials to reduce costs. The material supports circular economy initiatives by recycling post-industrial waste while providing adequate performance for applications where appearance and maximum properties are not primary requirements, enabling sustainable manufacturing practices.'
   },
 
   // PET Category
@@ -195,14 +195,14 @@ const content = [
     name: 'PET Preform Regrind',
     category: 'PET',
     images: ['/PET Preform Regrind.jpeg'],
-    description: 'Our PET preform regrind material provides an economical and sustainable solution for recycling applications while maintaining acceptable processing characteristics. This ground material, derived from preform manufacturing waste, is suitable for non-food applications such as fiber production, strapping, and secondary packaging. With maintained molecular weight and acceptable thermal properties,  PET regrind can be processed independently or blended with virgin materials. The material supports circular economy principles by reducing waste and providing cost-effective raw material for applications where food-grade requirements are not necessary, enabling sustainable manufacturing practices.'
+    description: 'We are Providing PET preform regrind material provides an economical and sustainable solution for recycling applications while maintaining acceptable processing characteristics. This ground material, derived from preform manufacturing waste, is suitable for non-food applications such as fiber production, strapping, and secondary packaging. With maintained molecular weight and acceptable thermal properties,  PET regrind can be processed independently or blended with virgin materials. The material supports circular economy principles by reducing waste and providing cost-effective raw material for applications where food-grade requirements are not necessary, enabling sustainable manufacturing practices.'
   },
   {
     id: 'hot-wash-pet-flakes',
     name: 'Hot wash PET Flakes',
     category: 'PET',
     images: ['/Hot wash PET Flakes.png'],
-    description: 'Our Premium hot-washed PET flakes are thoroughly cleaned and ready for reprocessing into new products. These high-quality recycled flakes undergo intensive washing and decontamination processes, removing adhesives, labels, and contaminants to meet stringent quality standards. Ideal for fiber production, sheet extrusion, and non-food packaging applications,  hot-washed PET flakes maintain excellent mechanical properties and processing characteristics. With consistent quality, low contamination levels, and reliable performance, these flakes provide an environmentally responsible raw material solution for manufacturers committed to sustainable production and circular economy principles.'
+    description: 'We are Providing Premium hot-washed PET flakes are thoroughly cleaned and ready for reprocessing into new products. These high-quality recycled flakes undergo intensive washing and decontamination processes, removing adhesives, labels, and contaminants to meet stringent quality standards. Ideal for fiber production, sheet extrusion, and non-food packaging applications,  hot-washed PET flakes maintain excellent mechanical properties and processing characteristics. With consistent quality, low contamination levels, and reliable performance, these flakes provide an environmentally responsible raw material solution for manufacturers committed to sustainable production and circular economy principles.'
   },
 
   // PE Category
@@ -211,21 +211,21 @@ const content = [
     name: 'LDPE',
     category: 'PE',
     images: ['/Reliance Ldpe 16ma400.png'],
-    description: 'Our Low-density polyethylene granules offer exceptional flexibility, excellent chemical resistance, and superior processing characteristics for flexible packaging applications. These versatile materials are perfect for plastic bags, food wraps, squeeze bottles, and flexible containers. With outstanding clarity, good seal strength, and excellent impact resistance at low temperatures,  LDPE ensures reliable performance in demanding packaging applications. The material exhibits excellent processability in blown film, injection molding, and rotational molding processes, making it the preferred choice for applications requiring flexibility, durability, and cost-effectiveness in packaging and consumer products.'
+    description: 'We are Providing Low-density polyethylene granules offer exceptional flexibility, excellent chemical resistance, and superior processing characteristics for flexible packaging applications. These versatile materials are perfect for plastic bags, food wraps, squeeze bottles, and flexible containers. With outstanding clarity, good seal strength, and excellent impact resistance at low temperatures,  LDPE ensures reliable performance in demanding packaging applications. The material exhibits excellent processability in blown film, injection molding, and rotational molding processes, making it the preferred choice for applications requiring flexibility, durability, and cost-effectiveness in packaging and consumer products.'
   },
   {
     id: 'lldpe',
     name: 'LLDPE',
     category: 'PE',
     images: ['/RIL LL JF19020 LLDPE Granule.png'],
-    description: ' Our Linear low-density polyethylene granules combine enhanced strength with exceptional flexibility, offering superior performance for demanding packaging applications. These advanced materials provide excellent puncture resistance, outstanding tear strength, and superior environmental stress crack resistance compared to conventional LDPE. Ideal for heavy-duty bags, agricultural films, stretch wrap, and industrial liners,  LLDPE ensures reliable performance under stress. With excellent processability, good optical properties, and enhanced mechanical performance, these granules deliver cost-effective solutions for applications requiring superior toughness and flexibility in challenging environments.'
+    description: ' We are Providing Linear low-density polyethylene granules combine enhanced strength with exceptional flexibility, offering superior performance for demanding packaging applications. These advanced materials provide excellent puncture resistance, outstanding tear strength, and superior environmental stress crack resistance compared to conventional LDPE. Ideal for heavy-duty bags, agricultural films, stretch wrap, and industrial liners,  LLDPE ensures reliable performance under stress. With excellent processability, good optical properties, and enhanced mechanical performance, these granules deliver cost-effective solutions for applications requiring superior toughness and flexibility in challenging environments.'
   },
   {
     id: 'hdpe',
     name: 'HDPE',
     category: 'PE',
     images: ['/Haldia B6401 HDPE Granule.png'],
-    description: 'Our High-density polyethylene granules offer exceptional strength, rigidity, and chemical resistance for demanding container applications. These robust materials are perfect for milk jugs, detergent bottles, fuel tanks, and industrial containers. With outstanding environmental stress crack resistance, excellent chemical compatibility, and superior barrier properties,  HDPE ensures long-lasting performance in harsh environments. The material exhibits excellent processability in blow molding and injection molding applications, providing consistent wall thickness and dimensional stability. Ideal for applications requiring durability, chemical resistance, and structural integrity in rigid container manufacturing.'
+    description: 'We are Providing High-density polyethylene granules offer exceptional strength, rigidity, and chemical resistance for demanding container applications. These robust materials are perfect for milk jugs, detergent bottles, fuel tanks, and industrial containers. With outstanding environmental stress crack resistance, excellent chemical compatibility, and superior barrier properties,  HDPE ensures long-lasting performance in harsh environments. The material exhibits excellent processability in blow molding and injection molding applications, providing consistent wall thickness and dimensional stability. Ideal for applications requiring durability, chemical resistance, and structural integrity in rigid container manufacturing.'
   }
 ];
 
