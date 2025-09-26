@@ -50,7 +50,7 @@ const content = [
       '/Polimaxx GPPS GP-150.png',
       '/Supreme 206 HT GPPS.png'
     ],
-    description: 'Our Premium virgin GPPS (General Purpose Polystyrene) granules offer exceptional clarity, dimensional stability, and ease of processing. These crystal-clear materials are perfect for disposable cups, food containers, CD cases, and transparent packaging applications. With excellent stiffness, low moisture absorption, and superior optical properties, VriginGPPS ensures consistent injection molding and thermoforming results. The material provides outstanding surface finish and maintains its clarity throughout the manufacturing process, making it ideal for high-visibility consumer products.'
+    description: 'We are Providing Premium virgin GPPS (General Purpose Polystyrene) granules offer exceptional clarity, dimensional stability, and ease of processing. These crystal-clear materials are perfect for disposable cups, food containers, CD cases, and transparent packaging applications. With excellent stiffness, low moisture absorption, and superior optical properties, VriginGPPS ensures consistent injection molding and thermoforming results. The material provides outstanding surface finish and maintains its clarity throughout the manufacturing process, making it ideal for high-visibility consumer products.'
   },
   {
     id: 'reprocess-gpps',
@@ -85,7 +85,7 @@ const content = [
       "/IDEMITSU NC 770 HIPS Natural.png",
       "/Supreme SH 300 HIPS.png"
     ],
-    description: ' Our VriginHIPS (High Impact Polystyrene) granules combine the processability of general-purpose polystyrene with enhanced impact resistance and toughness. These premium materials are engineered for applications requiring durability and strength, including refrigerator linings, television housings, computer monitors, and automotive interior components. With excellent dimensional stability, good chemical resistance, and superior impact properties, VriginHIPS ensures reliable performance in demanding applications while maintaining ease of processing and cost-effectiveness for high-volume production runs.'
+    description: ' We are Providing VriginHIPS (High Impact Polystyrene) granules combine the processability of general-purpose polystyrene with enhanced impact resistance and toughness. These premium materials are engineered for applications requiring durability and strength, including refrigerator linings, television housings, computer monitors, and automotive interior components. With excellent dimensional stability, good chemical resistance, and superior impact properties, VriginHIPS ensures reliable performance in demanding applications while maintaining ease of processing and cost-effectiveness for high-volume production runs.'
   },
   {
     id: 'reprocess-hips',
@@ -106,7 +106,7 @@ const content = [
     images: [
       '/M12RR Hmel PP Injection Molding Granules.png'
     ],
-    description: 'Our Premium virgin polypropylene granules offer exceptional chemical resistance, low density, and excellent mechanical properties. These high-grade materials are perfect for automotive parts, food packaging, medical devices, and consumer appliances. With outstanding fatigue resistance, good dimensional stability, and superior processing characteristics, VriginPP ensures consistent injection molding performance. The material exhibits excellent resistance to stress cracking, chemicals, and environmental conditions, making it ideal for demanding applications requiring long-term durability and reliability in various industrial and commercial sectors.'
+    description: 'We are Providing Premium virgin polypropylene granules offer exceptional chemical resistance, low density, and excellent mechanical properties. These high-grade materials are perfect for automotive parts, food packaging, medical devices, and consumer appliances. With outstanding fatigue resistance, good dimensional stability, and superior processing characteristics, VriginPP ensures consistent injection molding performance. The material exhibits excellent resistance to stress cracking, chemicals, and environmental conditions, making it ideal for demanding applications requiring long-term durability and reliability in various industrial and commercial sectors.'
   },
   {
     id: 'reprocess-pp',
@@ -124,7 +124,7 @@ const content = [
     images: [
       '/Kumho San 310 C Tr.png','/SAN Taita 1400 ZN.png'
     ],
-    description: 'Our Premium virgin SAN (Styrene Acrylonitrile) granules offer exceptional optical clarity, superior chemical resistance, and excellent dimensional stability. These high-performance materials are ideal for transparent applications including cosmetic containers, food storage, laboratory equipment, and optical components. With outstanding stress crack resistance, good thermal properties, and superior surface hardness, VriginSAN ensures crystal-clear transparency and long-lasting performance. The material processes exceptionally well in injection molding, providing consistent results for applications demanding both aesthetic appeal and functional reliability in transparent plastic products.'
+    description: 'We are Providing Premium virgin SAN (Styrene Acrylonitrile) granules offer exceptional optical clarity, superior chemical resistance, and excellent dimensional stability. These high-performance materials are ideal for transparent applications including cosmetic containers, food storage, laboratory equipment, and optical components. With outstanding stress crack resistance, good thermal properties, and superior surface hardness, VriginSAN ensures crystal-clear transparency and long-lasting performance. The material processes exceptionally well in injection molding, providing consistent results for applications demanding both aesthetic appeal and functional reliability in transparent plastic products.'
   },
   {
     id: 'reprocess-san-granules',
@@ -157,7 +157,7 @@ const content = [
     images: [
       '/SABIC PC 1003 R.png'
     ],
-    description: 'Our Premium virgin polycarbonate (PC) granules combine exceptional impact resistance, optical clarity, and high-temperature performance, making them the ideal choice for demanding engineering applications. With superior dimensional stability, excellent UV resistance, and flame-retardant properties, these granules maintain their toughness and reliability across a wide temperature range. Perfectly suited for automotive glazing, electronic housings, safety equipment, and optical lenses, VriginPC ensures durability, precision, and consistent performance in critical applications.'
+    description: 'We are Providing Premium virgin polycarbonate (PC) granules combine exceptional impact resistance, optical clarity, and high-temperature performance, making them the ideal choice for demanding engineering applications. With superior dimensional stability, excellent UV resistance, and flame-retardant properties, these granules maintain their toughness and reliability across a wide temperature range. Perfectly suited for automotive glazing, electronic housings, safety equipment, and optical lenses, VriginPC ensures durability, precision, and consistent performance in critical applications.'
   },
   {
     id: 'reprocess-polycarbonate-granules',
@@ -188,7 +188,7 @@ const content = [
     images: [
       '/WANKAI Pet Granules.png'
     ],
-    description: 'Our High-grade virgin PET resin offers exceptional clarity, excellent barrier properties, and superior mechanical strength for bottle and container manufacturing. These premium materials are ideal for food and beverage packaging, pharmaceutical containers, and cosmetic bottles. With outstanding chemical resistance, good thermal stability, and excellent processing characteristics, VriginPET ensures consistent blow molding and injection molding performance. The material provides excellent gas barrier properties, maintains transparency, and meets stringent food safety requirements, making it the preferred choice for high-quality packaging applications requiring purity and performance.'
+    description: 'We are Providing High-grade virgin PET resin offers exceptional clarity, excellent barrier properties, and superior mechanical strength for bottle and container manufacturing. These premium materials are ideal for food and beverage packaging, pharmaceutical containers, and cosmetic bottles. With outstanding chemical resistance, good thermal stability, and excellent processing characteristics, VriginPET ensures consistent blow molding and injection molding performance. The material provides excellent gas barrier properties, maintains transparency, and meets stringent food safety requirements, making it the preferred choice for high-quality packaging applications requiring purity and performance.'
   },
   {
     id: 'pet-preform-regrind',
