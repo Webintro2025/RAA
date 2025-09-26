@@ -67,10 +67,10 @@ const images = [
   // SAN Granules
   { src: '/Kumho San 310 C Tr.png', alt: 'KUMHO SAN GRANULES', slug: 'san-granules' },
   { src: '/SAN Taita 1400 ZN.png', alt: 'TAITA SAN GRANULES', slug: 'san-granules' },
-  { src: '/Reprocessed San Granules.png', alt: 'REPROCESSED SAN', slug: 'san-granules' },
-  { src: '/Reprocessed San Granules 1.png', alt: 'REPROCESSED SAN 1', slug: 'san-granules' },
-  { src: '/Reprocessed San Granules 2.png', alt: 'REPROCESSED SAN 2', slug: 'san-granules' },
-  { src: '/Reprocessed San Granules 3.png', alt: 'REPROCESSED SAN 3', slug: 'san-granules' },
+  { src: '/Natural SAN Granules.png', alt: 'NATURAL SAN GRANULES', slug: 'san-granules' },
+  { src: '/Natural Blue SAN Granules.png', alt: 'NATURAL BLUE SAN GRANULES', slug: 'san-granules' },
+  { src: '/Blue SAN Granules.png', alt: 'BLUE SAN GRANULES', slug: 'san-granules' },
+  { src: '/Smoke SAN Granules.png', alt: 'SMOKE SAN GRANULES', slug: 'san-granules' },
   { src: '/Natural San Regrind.png', alt: 'NATURAL SAN REGRIND', slug: 'san-granules' },
   { src: '/Color SAN Regrind.png', alt: 'COLOR SAN REGRIND', slug: 'san-granules' },
   
@@ -86,7 +86,7 @@ const images = [
   
   // PET Granules
   { src: '/WANKAI Pet Granules.png', alt: 'WANKAI PET GRANULES', slug: 'pet-granules' },
-  { src: '/PET.jpeg', alt: 'PET GRANULES', slug: 'pet-granules' },
+  { src: '/PET Preform Regrind.jpeg', alt: 'PET PREFORM REGRIND', slug: 'pet-granules' },
   { src: '/Hot wash PET Flakes.png', alt: 'HOT WASH PET FLAKES', slug: 'pet-granules' },
   
   // PE Granules
