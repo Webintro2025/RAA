@@ -110,7 +110,7 @@ const Navbar = () => {
                       {/* Polystyrene Category */}
                       <li className="relative group">
                         <div className="block px-4 py-2 text-[#449833] font-medium hover:bg-[#48A1C7] hover:text-white transition-all duration-200 cursor-pointer">
-                          PG
+                          PS
                           
                         </div>
                         <div className="absolute left-full top-0 min-w-[200px] bg-white border border-[#449833] rounded-lg shadow-lg ml-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-30">
@@ -232,7 +232,7 @@ const Navbar = () => {
                 
                 {/* Polystyrene Category */}
                 <details className="mb-2">
-                  <summary className="text-[#449833] font-bold text-xs cursor-pointer select-none py-1">PG</summary>
+                  <summary className="text-[#449833] font-bold text-xs cursor-pointer select-none py-1">PS</summary>
                   <ul className="ml-3 mt-1">
                     <li><Link onClick={() => setNavOpen(false)} href="/products/virgin-gpps" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Virgin GPPS</Link></li>
                     <li><Link onClick={() => setNavOpen(false)} href="/products/reprocess-gpps" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Reprocess GPPS</Link></li>
