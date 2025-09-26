@@ -194,7 +194,7 @@ const content = [
     id: 'pet-preform-regrind',
     name: 'PET Preform Regrind',
     category: 'PET',
-    images: ['/PET.jpeg'],
+    images: ['/PET Preform Regrind.jpeg'],
     description: ' PET preform regrind material provides an economical and sustainable solution for recycling applications while maintaining acceptable processing characteristics. This ground material, derived from preform manufacturing waste, is suitable for non-food applications such as fiber production, strapping, and secondary packaging. With maintained molecular weight and acceptable thermal properties,  PET regrind can be processed independently or blended with virgin materials. The material supports circular economy principles by reducing waste and providing cost-effective raw material for applications where food-grade requirements are not necessary, enabling sustainable manufacturing practices.'
   },
   {
