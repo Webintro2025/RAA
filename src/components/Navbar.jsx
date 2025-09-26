@@ -110,7 +110,7 @@ const Navbar = () => {
                       {/* Polystyrene Category */}
                       <li className="relative group">
                         <div className="block px-4 py-2 text-[#449833] font-medium hover:bg-[#48A1C7] hover:text-white transition-all duration-200 cursor-pointer">
-                          Polystyrene Granules
+                          PG
                           
                         </div>
                         <div className="absolute left-full top-0 min-w-[200px] bg-white border border-[#449833] rounded-lg shadow-lg ml-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-30">

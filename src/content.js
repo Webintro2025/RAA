@@ -5,8 +5,8 @@ const content = [
     name: 'Virgin ABS Granules',
     category: 'ABS',
     images: [
-      '/Virgin ABS Natural Granules.png',
-      '/Bhansali Abs Plastic Granules.png',
+      '/Taita 5000 W ABS Natural.png',
+      '/Bhanshali MI 45 ABS Natural.png',
       '/Polimaxx ABS GA 850.png'
     ],
     description: 'Our premium virgin ABS (Acrylonitrile Butadiene Styrene) granules offer exceptional mechanical properties, including high impact resistance, dimensional stability, and excellent surface finish. These first-grade materials are perfect for automotive components, electronic housings, appliance parts, and consumer goods. With superior chemical resistance and temperature tolerance, our virgin ABS granules ensure consistent processing performance and reliable end-product quality for demanding industrial applications across multiple manufacturing sectors.'
@@ -18,10 +18,10 @@ const content = [
     images: [
       
       '/RAA-4100 S Natural Abs Granules.png',
-      '/Green Reprocessed Abs Granules.png',
-      '/Grey Reprocessed Abs Granules.png',
-      '/Milky White Reprocessed Abs Granules.png',
-      '/Purple Reprocessed Abs Granules.png',
+      '/RAA-2725 Poster Green ABS Granules.png',
+      '/RAA-515 S Grey ABS Granules.png',
+      '/RAA-3100 Milky White ABS Granule.png',
+      '/RAA- 750 Purple ABS Granules.png',
       '/RAA-100 Blue Reprocessed Abs Granules.png',
       '/RAA-360 Pioneer Green Abs Plastic Granules.png',
       '/RAA-2580 Garnet Red Abs Granules.png',
@@ -30,11 +30,13 @@ const content = [
       '/RAA-850 B Pink Reprocessed Abs Granules.png',
       '/Red Reprocessed Abs Plastic Granules.png',
       '/Yellow Recycled Abs Plastic Granules.png',
-      '/White Recycled Abs Plastic Granules.png',
-      '/Natural Recycled Transparent Abs Plastic Granules.png',
-      '/Purple Blue Reprocessed Abs Granules.png'
+      '/RAA-3110 Milky White ABS Granules.png',
+      '/RAA-4100 Semi Transparent Natural ABS Granules.png',
+      "/RAA-955 Chocolate Brown ABS Granules.png",
+      "/RAA-1200 Fl. Orange ABS Granules.png"
+    
     ],
-    description: 'Our eco-friendly reprocessed ABS granules provide an economical solution without compromising quality. Available in a vibrant spectrum of colors including natural, blue, green, red, yellow, and custom shades, these recycled materials maintain excellent mechanical properties and processing characteristics. Ideal for non-critical applications such as toys, housewares, garden products, and decorative items. Our rigorous quality control ensures consistent color matching and reliable performance while supporting sustainable manufacturing practices and reducing environmental impact.'
+    description: 'Our eco-friendly reprocessed ABS granules provide an economical solution without compromising quality. Available in a vibrant spectrum of colors including natural, blue, green, red, yellow, and custom shades, these recycled materials maintain excellent mechanical properties and processing characteristics. Ideal for non-critical applications such as toys, housewares, garden products, and decorative items.'
   },
 
   // Polystyrene Granules Category
@@ -45,7 +47,8 @@ const content = [
     images: [
       '/Prime GPPS Virgin Granules.png',
       '/Styrenix 133 GPPS Virgin Granules.png',
-      '/Polimaxx GPPS GP-150.png'
+      '/Polimaxx GPPS GP-150.png',
+      '/Supreme 206 HT GPPS.png'
     ],
     description: 'Our premium virgin GPPS (General Purpose Polystyrene) granules offer exceptional clarity, dimensional stability, and ease of processing. These crystal-clear materials are perfect for disposable cups, food containers, CD cases, and transparent packaging applications. With excellent stiffness, low moisture absorption, and superior optical properties, our virgin GPPS ensures consistent injection molding and thermoforming results. The material provides outstanding surface finish and maintains its clarity throughout the manufacturing process, making it ideal for high-visibility consumer products.'
   },
@@ -54,7 +57,7 @@ const content = [
     name: 'Reprocess GPPS',
     category: 'Polystyrene Granules',
     images: [
-      '/Gpps Reprocessed Granules.png',
+      '/Coffee Pearl GPPS Granules.png',
       '/Black GPPS Reprocess Granules.png',
       '/Ivory GPPS Reprocess Granules.png',
       '/Pink GPPS Reprocess Granules.png',
@@ -63,9 +66,12 @@ const content = [
       '/P 37 D GPPS Reprocess Granule.png',
       '/Orange Pearl GPPS Reprocessed Granule.png',
       '/Maroon GPPS Reprocess Granules.png',
-      '/GPPS Golden Reprocess Granule.png',
+      '/Golden Pearl GPPS Granules.png',
       '/P 37 GPPS Reprocess Granules.png',
-      '/P 51 Ivory GPPS Reprocess Granules.png'
+      '/P 51 Ivory GPPS Reprocess Granules.png',
+      '/Natural GPPS Granules.png',
+      '/Maroon Pearl GPPS Granules.png',
+      '/P 35 GPPS Granules.png'
     ],
     description: 'Our cost-effective reprocessed GPPS granules offer excellent value while maintaining good mechanical and optical properties. Available in an extensive color palette including black, ivory, pink, amber, red, orange pearl, maroon, and golden shades, these materials are perfect for decorative items, promotional products, and non-critical packaging applications. Despite being recycled, our reprocessed GPPS maintains reliable processing characteristics and dimensional stability, making them suitable for injection molding and extrusion processes while supporting environmental sustainability initiatives.'
   },
@@ -73,14 +79,22 @@ const content = [
     id: 'virgin-hips',
     name: 'Virgin HIPS',
     category: 'Polystyrene Granules',
-    images: ['/virgin hip.png'],
+    images: [
+      "/Polimaxx HIPS HI 650.png",
+      "/Polimaxx HIPS HG 451.png",
+      "/IDEMITSU NC 770 HIPS Natural.png",
+      "/Supreme SH 300 HIPS.png"
+    ],
     description: 'Our virgin HIPS (High Impact Polystyrene) granules combine the processability of general-purpose polystyrene with enhanced impact resistance and toughness. These premium materials are engineered for applications requiring durability and strength, including refrigerator linings, television housings, computer monitors, and automotive interior components. With excellent dimensional stability, good chemical resistance, and superior impact properties, our virgin HIPS ensures reliable performance in demanding applications while maintaining ease of processing and cost-effectiveness for high-volume production runs.'
   },
   {
     id: 'reprocess-hips',
     name: 'Reprocess HIPS',
     category: 'Polystyrene Granules',
-    images: ['/Reprocess HIPS Natural Granules.png'],
+    images: ['/Reprocess HIPS Natural Granules.png',
+      '/Hips Black.png',
+      '/HIPS Milky White.png'
+    ],
     description: 'Our reprocessed HIPS granules provide an economical alternative while retaining good impact strength and processing characteristics. These recycled materials are suitable for less critical applications such as disposable containers, protective packaging, toys, and household items. With maintained dimensional stability and acceptable mechanical properties, our reprocessed HIPS offers cost savings without significant performance compromise. The material processes well in injection molding and thermoforming applications, making it an excellent choice for manufacturers seeking sustainable and budget-friendly solutions for non-demanding applications.'
   },
 
@@ -108,7 +122,7 @@ const content = [
     name: 'Virgin SAN Granules',
     category: 'SAN',
     images: [
-      '/Kumho San 310 C Tr.png'
+      '/Kumho San 310 C Tr.png','/SAN Taita 1400 ZN.png'
     ],
     description: 'Our premium virgin SAN (Styrene Acrylonitrile) granules offer exceptional optical clarity, superior chemical resistance, and excellent dimensional stability. These high-performance materials are ideal for transparent applications including cosmetic containers, food storage, laboratory equipment, and optical components. With outstanding stress crack resistance, good thermal properties, and superior surface hardness, our virgin SAN ensures crystal-clear transparency and long-lasting performance. The material processes exceptionally well in injection molding, providing consistent results for applications demanding both aesthetic appeal and functional reliability in transparent plastic products.'
   },
@@ -129,7 +143,8 @@ const content = [
     name: 'SAN Regrind',
     category: 'SAN',
     images: [
-      '/Natural San Regrind.png'
+      '/Natural San Regrind.png',
+      '/Color SAN Regrind.png'
     ],
     description: 'Our SAN regrind material provides an economical solution for recycling applications while maintaining basic processing characteristics. This ground material is suitable for non-critical applications such as filler material, secondary products, and applications where appearance is not a primary concern. With acceptable flow properties and dimensional stability, our SAN regrind can be used as an additive to virgin materials or processed independently for cost-sensitive applications. The material supports sustainable manufacturing practices by reducing waste and providing an environmentally responsible alternative for budget-conscious production requirements.'
   },
@@ -139,14 +154,19 @@ const content = [
     id: 'virgin-polycarbonate-granules',
     name: 'Virgin Polycarbonate Granules',
     category: 'PC',
-    images: ['/Virgin Polycarbonate Granules.png'],
-    description: 'Our premium virgin polycarbonate granules offer exceptional impact resistance, optical clarity, and high-temperature performance. These engineering-grade materials are perfect for demanding applications including automotive glazing, electronic housings, safety equipment, and optical lenses. With outstanding dimensional stability, excellent UV resistance, and superior mechanical properties at elevated temperatures, our virgin PC ensures reliable performance in critical applications. The material exhibits exceptional toughness, flame resistance, and maintains its properties across a wide temperature range, making it ideal for high-performance engineering applications requiring durability and precision.'
+    images: [
+      '/SABIC PC 1003 R.png'
+    ],
+    description: 'Our premium virgin polycarbonate (PC) granules combine exceptional impact resistance, optical clarity, and high-temperature performance, making them the ideal choice for demanding engineering applications. With superior dimensional stability, excellent UV resistance, and flame-retardant properties, these granules maintain their toughness and reliability across a wide temperature range. Perfectly suited for automotive glazing, electronic housings, safety equipment, and optical lenses, our virgin PC ensures durability, precision, and consistent performance in critical applications.'
   },
   {
     id: 'reprocess-polycarbonate-granules',
     name: 'Reprocess Polycarbonate Granules',
     category: 'PC',
-    images: ['/Reprocess Polycarbonate Granules.png'],
+    images: [
+      '/Smoke PC Granules.png',
+      '/Milky PC Granules.png'
+    ],
     description: 'Our reprocessed polycarbonate granules maintain excellent mechanical properties while providing cost-effective solutions for less critical applications. These recycled materials retain good impact resistance, dimensional stability, and processing characteristics suitable for automotive interior components, electronic enclosures, and industrial parts. With maintained toughness and acceptable optical properties, our reprocessed PC offers significant cost savings without major performance compromise. The material provides reliable injection molding performance and maintains sufficient engineering properties for applications where virgin-grade performance is not essential, supporting sustainable manufacturing practices.'
   },
   {
