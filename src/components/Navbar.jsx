@@ -39,7 +39,7 @@ const Navbar = () => {
                 alt="Blue and dark blue stylized S logo"
                 height="40"
                 width="40"
-                src="/logo.jpg"
+                src="/logo.jpeg"
                 className="w-[40px] h-[40px] object-contain md:w-[50px] md:h-[50px] cursor-pointer"
               />
               <span aria-label="Chahat Packaging text logo" className="font-bold text-lg sm:text-xl md:text-2xl text-[#449833] select-none cursor-pointer">
@@ -232,7 +232,7 @@ const Navbar = () => {
                 
                 {/* Polystyrene Category */}
                 <details className="mb-2">
-                  <summary className="text-[#449833] font-bold text-xs cursor-pointer select-none py-1">Polystyrene Granules</summary>
+                  <summary className="text-[#449833] font-bold text-xs cursor-pointer select-none py-1">PG</summary>
                   <ul className="ml-3 mt-1">
                     <li><Link onClick={() => setNavOpen(false)} href="/products/virgin-gpps" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Virgin GPPS</Link></li>
                     <li><Link onClick={() => setNavOpen(false)} href="/products/reprocess-gpps" className="block py-1 text-[#449833] text-xs hover:bg-[#48A1C7] hover:text-white transition-all duration-200 rounded px-2">• Reprocess GPPS</Link></li>
