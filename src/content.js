@@ -21,7 +21,7 @@ const content = [
       '/RAA-2725 Poster Green ABS Granules.png',
       '/RAA-515 S Grey ABS Granules.png',
       '/RAA-3100 Milky White ABS Granule.png',
-      '/RAA- 750 Purple ABS Granules.png',
+      '/RAA-760 IP Violet ABS Granules.png',
       '/RAA-100 Blue Reprocessed Abs Granules.png',
       '/RAA-360 Pioneer Green Abs Plastic Granules.png',
       '/RAA-2580 Garnet Red Abs Granules.png',

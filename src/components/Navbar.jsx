@@ -17,9 +17,9 @@ const Navbar = () => {
               <FaPhoneAlt className="text-xs sm:text-sm" />
               <span className="inline">+91-8287334248</span>
             </a>
-            <a href="mailto:ajitkg@rocketmail.com" className="flex items-center gap-1 text-black hover:text-blue-300">
+            <a href="mailto:ridhi@raapolyplast.com , ajit@raapolyplast.com" className="flex items-center gap-1 text-black hover:text-blue-300">
               <FaEnvelope className="text-xs sm:text-sm" />
-              <span className="inline">ajitkg@rocketmail.com </span>
+              <span className="inline">ridhi@raapolyplast.com , ajit@raapolyplast.com </span>
             </a>
           </div>
           <div className="hidden sm:flex gap-3 mt-1 sm:mt-0 justify-center">

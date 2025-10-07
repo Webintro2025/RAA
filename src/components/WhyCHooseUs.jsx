@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
     {
       id: 5,
       title: 'Proven Track Record',
-      description: 'Since 2015, we have consistently grown by delivering on our promises. Our strong market presence and annual turnover of ₹1.5 - 5 Cr are a testament to the trust our customers place in us.',
+      description: 'Since 2016, we have consistently grown by delivering on our promises. Our strong market presence and annual turnover of ₹1.5 - 5 Cr are a testament to the trust our customers place in us.',
       color: '#D01364'
     },
     {
