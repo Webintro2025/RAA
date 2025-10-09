@@ -15,7 +15,7 @@ const images = [
   { src: '/RAA -2550 S Standard Red ABS Plastic Granules.png', alt: 'RAA STANDARD RED ABS', slug: 'abs-granules' },
   { src: '/RAA-850 B Pink Reprocessed Abs Granules.png', alt: 'RAA PINK ABS', slug: 'abs-granules' },
   { src: '/RAA-760 IP Violet ABS Granules.png', alt: 'RAA PURPLE ABS', slug: 'abs-granules' },
-  { src: '/RAA-1200 Fl. Orange ABS Granules. Orange ABS Granules.png', alt: 'RAA ORANGE ABS', slug: 'abs-granules' },
+  { src: '/RAA-1200 Fl Orange ABS Granules.png', alt: 'RAA ORANGE ABS', slug: 'abs-granules' },
   { src: '/RAA-2725 Poster Green ABS Granules.png', alt: 'RAA POSTER GREEN ABS', slug: 'abs-granules' },
   { src: '/RAA-3100 Milky White ABS Granule.png', alt: 'RAA MILKY WHITE ABS', slug: 'abs-granules' },
   { src: '/RAA-3110 Milky White ABS Granules.png', alt: 'RAA WHITE ABS', slug: 'abs-granules' },
@@ -130,7 +130,7 @@ const Gallery = () => {
               className="w-full object-contain bg-[#F0F8FF]"
             />
             <div className="py-2 text-black font-semibold text-sm text-center w-full border-t border-[#449833] bg-[#48A1C7]">
-              {img.alt}
+              {img.src.split('/').pop()}
             </div>
           </div>
         ))}

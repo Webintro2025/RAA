@@ -33,7 +33,7 @@ const content = [
       '/RAA-3110 Milky White ABS Granules.png',
       '/RAA-4100 Semi Transparent Natural ABS Granules.png',
       "/RAA-955 Chocolate Brown ABS Granules.png",
-      "/RAA-1200 Fl. Orange ABS Granules.png"
+      "/RAA-1200 Fl Orange ABS Granules.png"
     
     ],
     description: 'Our Eco-friendly reprocessed ABS granules provide an economical solution without compromising quality. Available in a vibrant spectrum of colors including natural, blue, green, red, yellow, and custom shades, these recycled materials maintain excellent mechanical properties and processing characteristics. Ideal for non-critical applications such as toys, housewares, garden products, and decorative items.'
