@@ -2,7 +2,7 @@ import locations from '../../location';
 
 
 export async function GET() {
-  const baseUrl = 'https://plasticgranaule.in';
+  const baseUrl = 'https://plasticgranules.in';
 
   // Static pages
   const staticPages = [
