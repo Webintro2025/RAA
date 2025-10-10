@@ -20,6 +20,9 @@ export const metadata = {
   title: "RAA POLYPLAST",
   description: "Leading Manufacturer and Supplier of High-Quality Plastic Granules and Polymer Solutions",
   keywords: "plastic granules, polymer, manufacturer, supplier, RAA POLYPLAST, high-quality plastics, custom plastic solutions",
+   verification: {
+    google: "1JnWw0myGKuzvNByAFSwlwr-idNxHepP0aTNGYCpY6o", // ← Yeh line important hai
+  }, 
 }
 
 export default function RootLayout({ children }) {

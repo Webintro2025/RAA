@@ -12,9 +12,9 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="mb-4">
               <Link href="/">
-                <h1 className="text-2xl font-bold text-white mb-2 cursor-pointer" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                <h3 className="text-2xl font-bold text-white mb-2 cursor-pointer" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                   RAA Polyplast
-                </h1>
+                </h3>
               </Link>
               <p className="text-sm text-[#48A1C7] font-medium mb-3">
                 PLASTIC GRANULES MANUFACTURER
