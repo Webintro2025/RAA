@@ -22,7 +22,7 @@ const Footer = () => {
               <p className="text-gray-300 text-sm leading-relaxed">
                 D-120, Sector-5, Bawana Industrial Area, New Delhi-110039, Delhi, India<br/>
                 GST: 07BHWPM6220Q1ZH<br/>
-                Email: ridhi@raapolyplast.com , ajit@raapolyplast.com
+                Email:  ajit@raapolyplast.com
               </p>
             </div>
           </div>
@@ -105,7 +105,7 @@ const Footer = () => {
                   </div>
                   <div>
                     <p className="text-gray-300 text-xs sm:text-sm">Email</p>
-                    <p className="text-white font-semibold text-xs sm:text-sm">ridhi@raapolyplast.com , ajit@raapolyplast.com</p>
+                    <p className="text-white font-semibold text-xs sm:text-sm"> ajit@raapolyplast.com</p>
                   </div>
                 </div>
               </div>

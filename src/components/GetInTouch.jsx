@@ -136,7 +136,7 @@ const GetInTouch = () => {
           value={formData.email}
           onChange={handleInputChange}
           className="w-full mb-3 sm:mb-4 px-3 sm:px-4 py-2.5 sm:py-3 rounded-xl border border-[#449833] text-xs sm:text-sm md:text-base text-black placeholder-black focus:outline-none focus:ring-2 focus:ring-[#48A1C7]" 
-          placeholder="ridhi@raapolyplast.com , ajit@raapolyplast.com" 
+          placeholder=" ajit@raapolyplast.com" 
           type="email"
           required
         />
