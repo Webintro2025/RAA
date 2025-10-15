@@ -172,7 +172,7 @@ export default function LocationPage({ params }) {
   <ul class="list-disc pl-4 sm:pl-6 text-xs xs:text-sm sm:text-base  mb-2">
     <li>👉 <strong>Call Now:</strong> +91-8287334248</li>
     <li>👉 <strong>Visit Our Website</strong> <a href="https://plasticgranules.in/"> – www.plasticgranules.in</a></li>
-    <li>👉 <strong>Our Email Address</strong>ajit@raapolyplast.com </li>
+    <li>👉 <strong>Our Email Address</strong> : ajit@raapolyplast.com </li>
   </ul>
 </div>
 

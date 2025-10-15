@@ -109,9 +109,7 @@ const WhatWeDo = () => {
             <p className="text-xs sm:text-base text-black mb-3 sm:mb-4">
               Our promise of quality is backed by a rigorous process. We ensure that every batch of granules adheres to strict quality parameters for consistency and performance. Our strategic location in New Delhi, combined with an efficient logistics network, ensures a reliable and timely supply to keep your production lines running smoothly without interruption.
             </p>
-            <button className="bg-[#449833] text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold text-xs sm:text-base border-2 border-[#449833] hover:bg-[#48A1C7] hover:text-white transition-colors duration-200">
-              Get Your Quote Today
-            </button>
+        
           </div>
         </div>
       </div>

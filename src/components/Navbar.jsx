@@ -23,12 +23,7 @@ const Navbar = () => {
             </a>
           </div>
           <div className="hidden sm:flex gap-3 mt-1 sm:mt-0 justify-center">
-            <a aria-label="Facebook" href="#" className="text-black text-xs sm:text-sm"><FaFacebookF /></a>
-            <a aria-label="Instagram" href="#" className="text-black text-xs sm:text-sm"><FaInstagram /></a>
-            <a aria-label="Twitter" href="#" className="text-black text-xs sm:text-sm"><FaTwitter /></a>
-            <a aria-label="Pinterest" href="#" className="text-black text-xs sm:text-sm"><FaPinterestP /></a>
-            <a aria-label="LinkedIn" href="#" className="text-black text-xs sm:text-sm"><FaLinkedinIn /></a>
-            <a aria-label="YouTube" href="#" className="text-black text-xs sm:text-sm"><FaYoutube /></a>
+           <p className='text-black hover:text-blue-300'>GST: 07BHWPM6220Q1ZH</p>
           </div>
         </div>
         {/* Main nav */}

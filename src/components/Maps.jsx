@@ -6,7 +6,7 @@ const Maps = () => {
   const [userLocation, setUserLocation] = useState(null);
   const mapInstance = useRef(null);
 
-  const destinationLatLng = [28.737743, 77.12041];
+  const destinationLatLng = [28.79776000 , 77.08096000];
   const destinationAddress = 'D-120, Sector-5, Bawana Industrial Area, New Delhi-110039, Delhi, India';
     
   
