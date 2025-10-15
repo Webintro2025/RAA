@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 
-const About = () => {
+const About = ({ showButtons = true }) => {
   return (
   <div className="w-full px-0 py-8 sm:py-10">
       {/* Technology Section */}
@@ -22,12 +22,14 @@ const About = () => {
               Our foundation is built on strong moral business policies and complete transparency in all our transactions, allowing us to build healthy, long-term relationships with our clients. Under the insightful guidance of our mentor, Ms. Ridhi Mittal, Raa Polyplast has achieved exponential growth and carved a niche for itself in a competitive market. We are more than just a supplier; we are a reliable partner committed to your gratification.
             </p>
           </div>
-          <Link
-            href="/about"
-            className="bg-[#449833] text-white rounded-full px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base font-medium min-w-[140px] sm:min-w-[180px] hover:bg-[#48A1C7] hover:text-white transition-colors inline-flex items-center justify-center"
-          >
-            Read More...
-          </Link>
+          {showButtons && (
+            <Link
+              href="/about"
+              className="bg-[#449833] text-white rounded-full px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base font-medium min-w-[140px] sm:min-w-[180px] hover:bg-[#48A1C7] hover:text-white transition-colors inline-flex items-center justify-center"
+            >
+              Read More...
+            </Link>
+          )}
         </div>
         <div className="flex-1 min-w-[180px] max-w-[700px] px-0 mt-6 md:mt-0 flex justify-center md:justify-end w-full">
           <img
@@ -77,12 +79,14 @@ const About = () => {
             </p>
           </div>
 
-          <Link
-            href="/about"
-            className="bg-[#449833] text-white rounded-full px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base font-medium min-w-[140px] sm:min-w-[180px] hover:bg-[#48A1C7] hover:text-white transition-colors inline-flex items-center justify-center"
-          >
-            Learn More About Us
-          </Link>
+          {showButtons && (
+            <Link
+              href="/about"
+              className="bg-[#449833] text-white rounded-full px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base font-medium min-w-[140px] sm:min-w-[180px] hover:bg-[#48A1C7] hover:text-white transition-colors inline-flex items-center justify-center"
+            >
+              Learn More About Us
+            </Link>
+          )}
         </div>
       </section>
     </div>

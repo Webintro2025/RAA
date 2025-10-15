@@ -12,7 +12,7 @@ const AboutPage = () => {
         </h1>
       </div>
     
-        <About />
+  <About showButtons={false} />
   
         <WhatWeDo />
        
