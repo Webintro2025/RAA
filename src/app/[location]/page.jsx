@@ -11,7 +11,7 @@ const normalizeLocation = (location) => {
 };
 
 export async function generateMetadata({ params }) {
-  const { location } = params;
+  const { location } = await params;
   const formattedLocation = normalizeLocation(location);
 
     return {
@@ -34,8 +34,8 @@ export async function generateMetadata({ params }) {
     };
 }
 
-export default function LocationPage({ params }) {
-  const { location } = params;
+export default async function LocationPage({ params }) {
+  const { location } = await params;
   const formattedLocation = normalizeLocation(location);
 
   // Normalize for case-insensitive match

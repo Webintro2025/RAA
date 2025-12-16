@@ -13,7 +13,9 @@ export async function generateStaticParams() {
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }) {
-  const product = content.find((item) => item.id === params.slug);
+  const { slug } = await params
+
+  const product = content.find(item => item.id === slug)
   
   if (!product) {
     return {
@@ -28,8 +30,10 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function ProductPage({ params }) {
-  const product = content.find((item) => item.id === params.slug);
+export default async  function ProductPage({ params }) {
+ const { slug } = await params
+
+  const product = content.find(item => item.id === slug)
 
   if (!product) {
     notFound();
